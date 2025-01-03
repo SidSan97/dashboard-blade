@@ -1,0 +1,19 @@
+.total-earned img {
+    width: 28px;
+}
+
+.total-earned i {
+    font-size: 25px;
+}
+
+.total-earned span:first-child, .total-earned span:last-child {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 800 !important;
+    color: #666565;
+}
+
+.total-earned-quantity {
+    font-size: 30px;
+    font-weight: 800;
+}

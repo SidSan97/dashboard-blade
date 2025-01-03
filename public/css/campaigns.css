@@ -1,0 +1,137 @@
+.campaigns {
+    padding: 0 15px 0 15px;
+}
+
+.select-campaigns select{
+    font-size: 11px;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+.card-top span:nth-child(1){
+    color: #6c6b6b;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.card-top span:nth-child(2) {
+    color: #343232;
+    font-weight: 800;
+}
+
+.card-campaigns {
+    background-color: white;
+    border-radius: 5px;
+}
+
+/*card*/
+.flags {
+    display: flex;
+    gap: 5px;
+}
+
+.flags div span {
+    color: #6c6b6b;
+    font-weight: 800;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.campaigns-months {
+    font-weight: 800;
+    font-size: 9px;
+}
+
+.campaigns-months div i {
+    margin-right: 2px;
+}
+
+.campaigns-months div span {
+    color: #6c6b6b;
+}
+
+.campaigns-months strong {
+    margin: 0px 2px 0px 2px;
+}
+
+.evolution-gaming-users {
+    font-size: 13px;
+    color: #383838;
+}
+
+.evolution-gaming-dataset-win {
+    border: 1px solid #198754;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f3fff3;
+}
+
+.evolution-gaming-dataset-neutro {
+    border: 1px solid #6c757d;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #66666617;
+}
+
+.evolution-gaming-dataset-loser {
+    border: 1px solid #dc3545;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff7f7;
+}
+
+.evolution-gaming-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.evolution-gaming-filters select {
+    font-size: 10px;
+    height: 29px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.stat-item img {
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+.stat-item i {
+    color: #959595;
+}
+
+.stat-item strong {
+    font-size: 14px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.evolution-gaming-additional-info div
+{
+    font-size: 14px;
+}
+
+.icons-additional-info i {
+    font-size: 25px;
+}
+
+@media(max-width: 767px) {
+    .select-campaigns div {
+        display: flex;
+        justify-content: center;
+    }
+}

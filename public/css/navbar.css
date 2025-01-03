@@ -1,0 +1,37 @@
+.notification {
+    position: relative;
+    display: inline-block;
+}
+
+.notification-bell {
+    font-size: 24px;
+    color: #333;
+}
+
+.notification-badge {
+    position: absolute;
+    top: 9px;
+    background-color: #17a2b8;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+}
+
+@media(min-width: 992px) {
+    .notification-badge {
+        right: 0px;
+    }
+}
+
+@media(max-width: 991px) {
+    .notification-badge {
+        left: 12px;
+    }
+}

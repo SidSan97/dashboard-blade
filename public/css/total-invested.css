@@ -1,0 +1,18 @@
+.total-invested {
+    height: 45px;
+}
+
+.total-invested img {
+    width: 19px;
+}
+
+.total-invested span:nth-child(1) {
+    font-weight: 800;
+    margin-right: 15px;
+    color: #666565;
+}
+
+.total-invested span:last-child {
+    color: #e77d1f;
+    font-weight: 700;
+}

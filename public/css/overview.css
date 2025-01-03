@@ -1,0 +1,78 @@
+.overview-media-data {
+    height: 50px;
+    margin-right: 8px !important;
+    width: auto !important;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.overview-media-data i, .overview-media-data span {
+    font-size: 14px;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.overview-logos img {
+    width: 60px;
+}
+
+.select-overview select{
+    font-size: 13px;
+    height: 30px;
+    width: 145px;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+.overview-visualize:first-child {
+    margin-right: 30px;
+}
+
+.overview-visualize span {
+    font-style: italic;
+    font-size: 11px;
+}
+
+.overviews-info {
+    font-weight: 800 !important;
+    color: #666565;
+}
+
+.quantity-overviews {
+    font-weight: 700;
+    margin: 0px 3px 0px 3px;
+    font-size: 21px !important;
+}
+
+.three-button-menu {
+    padding: 0 !important;
+    align-items: flex-start;
+    display: flex;
+    height: 35px;
+    background: none;
+    border: none;
+}
+
+.three-button-menu i {
+    color: #000000;
+}
+
+@media(max-width: 991px) {
+    .overview-filters {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 549px) {
+    .select-overview {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .select-overview select {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+}
