@@ -1,6 +1,6 @@
 // Dados do gráfico
 const data = {
-    labels: ['23 SET', '24 SET', '25 SET', '26 SET', '27 SET', '28 SET', '29 SET', '30 SET', '01 OUT', '02 OUT', '03 OUT', '04 OUT', '05 OUT', '06 OUT'],
+    labels: ['23 SET', '24', '25', '26', '27', '28', '29', '30', '01 OUT', '02', '03', '04', '05', '06'],
     datasets: [{
         label: 'Videos',
         data: [0, 40, 140, 160, 80, 50, 100, 120, 118, 90, 100, 140, 110, 80],
@@ -8,7 +8,7 @@ const data = {
         backgroundColor: 'rgba(62, 191, 234, 0.1)', // Sombra no gráfico
         pointBorderColor: '#3ebfea',
         pointBackgroundColor: '#fff',
-        pointRadius: 5, // Tamanho dos pontos
+        pointRadius: [0, 0, 0, 0, 0, 0, 0, 0, 5, 0 ,0, 0, 0, 0], // Tamanho dos pontos
         pointHoverRadius: 8, // Tamanho do ponto no hover
         pointHoverBackgroundColor: '#3ebfea',
         pointHoverBorderColor: '#fff',
@@ -52,7 +52,7 @@ const config = {
                 size: 12,
                 family: 'tahoma',
                 weight: 'normal',
-                style: 'bold'
+                //style: 'bold'
             },
             padding: {
                 bottom: 10
@@ -68,8 +68,8 @@ const config = {
             ticks: {
                 color: '#212529', // Cor dos rótulos do eixo X
                 font: {
-                    size: 8,
-                    style: 'bold',
+                    size: 10,
+                    //style: 'bold',
                 }
             }
         },

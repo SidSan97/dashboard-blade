@@ -1,0 +1,123 @@
+.total-views-filters div select{
+    font-size: 11px;
+    height: 30px;
+    width: 115px;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+.total-views-filters div label {
+    font-size: 12px;
+    font-weight: 800;
+    color: #666565;
+}
+
+.tvi-checks-filters label {
+    font-size: 12px;
+    font-weight: 800;
+    color: #666565;
+    margin-top: 3px;
+}
+
+.tvi-checks-filters i {
+    margin: 4px 6px 0px 6px;
+    font-size: 12px;
+}
+
+.tvi-checks-filters div:nth-child(1) i {
+    color: #d63384;
+}
+
+.tvi-checks-filters div:nth-child(2) i {
+    color: #0dcaf0;
+}
+
+.tvi-checks-filters div:nth-child(3) i {
+    color: #343a40;
+}
+
+.tvi-social-media-filters div img {
+    max-width: 25px;
+}
+
+.tvi-social-media-filters div i {
+    font-size: 10px;
+    margin: 8px 4px 0px 4px;
+}
+
+.tvi-social-media-filters div:nth-child(1) i {
+    color: #fd7e14;
+}
+
+.tvi-social-media-filters div:nth-child(2) i {
+    color: #dc3545;
+}
+
+.tvi-social-media-filters div:nth-child(3) i {
+    color: #0d6efd;
+}
+
+.tvi-social-media-filters div:nth-child(4) i {
+    color: #0dcaf0;
+}
+
+.tvi-social-media-filters div:nth-child(5) i {
+    color: #198754;
+}
+
+.tvi-social-media-filters div:nth-child(6) i {
+    color: #0d6efd;
+}
+
+.tvi-infos div:nth-child(1) {
+    font-size: 11px;
+}
+
+.total-videos-engajament i{
+    font-size: 20px;
+    color: #666565;
+    margin-top: 5px;
+}
+
+.total-videos-engajament div:nth-child(1) span{
+    font-size: 25px;
+}
+
+.total-videos-engajament div:nth-child(2) span{
+    font-size: 13px;
+    color: #666565;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.tvi-country img {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.tvi-country span {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 7px;
+    color: #666565;
+}
+
+.tvi-chart-container {
+    background-color: rgb(251, 251, 251);
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+}
+
+.tvi-chart-container canvas {
+    height: 350px !important;
+    width: 100% !important;
+}
+
+.tvi-chart-container span {
+    color: #030303;
+    font-weight: 800;
+    font-size: 12px;
+    margin-left: 5px;
+}

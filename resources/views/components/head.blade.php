@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="{{asset('css/total-invested.css')}}">
     <link rel="stylesheet" href="{{asset('css/campaigns.css')}}">
     <link rel="stylesheet" href="{{asset('css/published-videos.css')}}">
+    <link rel="stylesheet" href="{{asset('css/total-videos.css')}}">
+    <link rel="stylesheet" href="{{asset('css/top-social-users.css')}}">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

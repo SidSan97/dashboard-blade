@@ -1,0 +1,38 @@
+.tsu-status div span {
+    font-size: 16px;
+    font-weight: 800;
+    color: #666565;
+}
+
+.tsu-list {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.tsu-data-user img{
+    border-radius: 45px;
+    width: 45px;
+    height: 45px;
+}
+
+.tsu-data-user div strong, .tsu-data-user span {
+    font-size: 13px;
+}
+
+.tsu-user-engajament i {
+    margin-right: 5px;
+}
+
+.tsu-country {
+    color: #959595;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 4px 0px 0px 3px;
+}
+
+.tsu-content hr {
+    height: 2px !important;
+    color: #8d8b8b;
+    border-radius: 10px;
+}

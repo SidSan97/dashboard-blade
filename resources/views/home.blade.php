@@ -32,6 +32,12 @@
 
                                     @include('components/published-videos')
                                 </div>
+
+                                <div class="col lg-6 mb-2">
+                                    @include('components/total-views')
+
+                                    @include('components/top-social-users')
+                                </div>
                             </div>
                         </div>
                     </main>
