@@ -36,3 +36,21 @@
     color: #8d8b8b;
     border-radius: 10px;
 }
+
+.select-tsu select {
+    font-size: 11px;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+@media(max-width: 1199.99px) {
+    .select-tsu select {
+        font-size: 15px;
+        height: 35px;
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 3px;
+    }
+}

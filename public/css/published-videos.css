@@ -37,6 +37,15 @@
     margin-left: 5px;
 }
 
+@media(min-width: 1400px) {
+    .published-video-filters select {
+        font-size: 12px;
+        height: 35px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
 @media(max-width: 991px) {
     .published-video-filters select {
         font-size: 15px;

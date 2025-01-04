@@ -35,3 +35,41 @@
     color: #8d8b8b;
     border-radius: 10px;
 }
+
+.select-post select {
+    font-size: 11px;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+@media(min-width: 1400px){
+    .select-post select {
+        font-size: 14px;
+        height: 35px;
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 3px;
+    }
+}
+
+/*@media(min-width: 992px) and (max-width: 1250px) {
+    .posts-data-user div span:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .posts-data-user div strong {
+        font-size: 13px;
+    }
+}*/
+
+@media(max-width: 1199.99px){
+    .select-post select {
+        font-size: 14px;
+        height: 35px;
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 3px;
+    }
+}
