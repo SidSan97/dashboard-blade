@@ -36,3 +36,12 @@
     font-size: 12px;
     margin-left: 5px;
 }
+
+@media(max-width: 991px) {
+    .published-video-filters select {
+        font-size: 15px;
+        height: 37px;
+        width: 250px;
+        border-radius: 10px;
+    }
+}

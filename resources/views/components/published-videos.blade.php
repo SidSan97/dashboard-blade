@@ -8,7 +8,7 @@
         <div class="published-video-filters">
             <div class="container">
                 <div class="row mb-2">
-                    <div class="col-lg-3 mb-2">
+                    <div class="col-xl-3 col-lg-6 mb-2 d-flex justify-content-center">
                         <select class="form-select" aria-label="Default select example">
                             <option selected="">All Countries</option>
                             <option value="1">Brazil</option>
@@ -20,7 +20,7 @@
                         </select>
                     </div>
 
-                    <div class="col-lg-3 mb-2">
+                    <div class="col-xl-3 col-lg-6 mb-2 d-flex justify-content-center">
                         <select class="form-select" aria-label="Default select example">
                             <option selected="">All Time Period</option>
                             <option value="1">Last 24 hours</option>
@@ -31,7 +31,7 @@
                         </select>
                     </div>
 
-                    <div class="col-lg-3 mb-2">
+                    <div class="col-xl-3 col-lg-6 mb-2 d-flex justify-content-center">
                         <select class="form-select" aria-label="Default select example">
                             <option selected="">All Social Media</option>
                             <option value="1">Instagram</option>
@@ -43,7 +43,7 @@
                         </select>
                     </div>
 
-                    <div class="col-lg-3 mb-2">
+                    <div class="col-xl-3 col-lg-6 mb-2 d-flex justify-content-center">
                         <div class="d-flex flex-column align-items-center">
                             <div class="d-flex justify-content-center align-items-center pv-info">
                                 <i class="bi bi-film"></i>
