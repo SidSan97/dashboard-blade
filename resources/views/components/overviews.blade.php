@@ -15,35 +15,41 @@
 
         <div class="row mb-2">
             <div class="col-lg-8 col-md-6 d-flex align-items-center p-0 mb-2 overview-filters">
-                <div class="select-overview d-flex">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>All Countries</option>
-                        <option value="1">Brazil</option>
-                        <option value="2">Japan</option>
-                        <option value="3">South Korea</option>
-                        <option value="4">New Zealand</option>
-                        <option value="5">Spain</option>
-                        <option value="6">Canada</option>
-                    </select>
+                <div class="select-overview row">
+                    <div class="d-flex justify-content-sm-center col-xl-4 col-md-6 mb-2">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>All Countries</option>
+                            <option value="1">Brazil</option>
+                            <option value="2">Japan</option>
+                            <option value="3">South Korea</option>
+                            <option value="4">New Zealand</option>
+                            <option value="5">Spain</option>
+                            <option value="6">Canada</option>
+                        </select>
+                    </div>
 
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>All Time Period</option>
-                        <option value="1">Last 24 hours</option>
-                        <option value="2">Last 7 days</option>
-                        <option value="3">Last 30 days</option>
-                        <option value="4">Last 3 months</option>
-                        <option value="5">Custom</option>
-                    </select>
+                    <div class="d-flex justify-content-sm-center col-xl-4 col-md-6 mb-2">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>All Time Period</option>
+                            <option value="1">Last 24 hours</option>
+                            <option value="2">Last 7 days</option>
+                            <option value="3">Last 30 days</option>
+                            <option value="4">Last 3 months</option>
+                            <option value="5">Custom</option>
+                        </select>
+                    </div>
 
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>All Social Media</option>
-                        <option value="1">Instagram</option>
-                        <option value="2">TikTok</option>
-                        <option value="3">Youtube</option>
-                        <option value="4">X (Twitter)</option>
-                        <option value="5">Bluesky</option>
-                        <option value="6">Facebook</option>
-                    </select>
+                    <div class="d-flex justify-content-sm-center col-xl-4 col-md-6 mb-2">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>All Social Media</option>
+                            <option value="1">Instagram</option>
+                            <option value="2">TikTok</option>
+                            <option value="3">Youtube</option>
+                            <option value="4">X (Twitter)</option>
+                            <option value="5">Bluesky</option>
+                            <option value="6">Facebook</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 
