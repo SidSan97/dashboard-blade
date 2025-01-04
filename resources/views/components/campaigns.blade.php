@@ -13,8 +13,8 @@
             </div>
         </div>
 
-        <div class="row select-campaigns">
-            <div class="col-md-3 col-6 mb-2 p-0">
+        <div class="row select-campaigns p-2">
+            <div class="col-md-4 col-12 mb-2 p-0">
                 <select class="form-select" aria-label="Default select example">
                     <option selected>All Countries</option>
                     <option value="1">Brazil</option>
@@ -26,7 +26,7 @@
                 </select>
             </div>
 
-            <div class="col-md-3 col-6 mb-2 p-0">
+            <div class="col-md-4 col-12 mb-2 p-0">
                 <select class="form-select" aria-label="Default select example">
                     <option selected>All Time Period</option>
                     <option value="1">Last 24 hours</option>
@@ -37,7 +37,7 @@
                 </select>
             </div>
 
-            <div class="col-md-3 col-6 mb-2 p-0">
+            <div class="col-md-4 col-12 mb-2 p-0">
                 <select class="form-select" aria-label="Default select example">
                     <option selected>All Social Media</option>
                     <option value="1">Instagram</option>
@@ -49,7 +49,7 @@
                 </select>
             </div>
 
-            <div class="col-md-3 col-6 mb-2 p-0">
+            <div class="col-md-4 col-12 mb-2 p-0">
                 <select class="form-select" aria-label="Default select example">
                     <option selected>All States</option>
                     <option value="1">Active</option>
@@ -58,7 +58,7 @@
                 </select>
             </div>
 
-            <div class="col-md-3 col-6 mb-2 p-0">
+            <div class="col-md-4 col-12 mb-2 p-0">
                 <select class="form-select" id="campaignSelect">
                     <option selected>Open this select menu</option>
                     <option value="1">How To Play Casino Online</option>

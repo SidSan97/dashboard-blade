@@ -135,3 +135,13 @@
         justify-content: center;
     }
 }
+
+@media(max-width: 575px) {
+    .select-campaigns select {
+        font-size: 16px;
+        height: 40px;
+        width: 240px;
+        border-radius: 10px;
+        margin-right: 3px;
+    }
+}
