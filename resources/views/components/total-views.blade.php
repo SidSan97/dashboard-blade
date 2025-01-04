@@ -8,7 +8,7 @@
         <div class="row mb-2">
             <div class="container">
                 <div class="row total-views-filters mb-2">
-                    <div class="col-lg-3 mb-2">
+                    <div class="col-xl-3 col-lg-6 col-md-3 col-sm-6 mb-2">
                         <select class="form-select" aria-label="Default select example">
                             <option selected="">All Countries</option>
                             <option value="1">Brazil</option>
@@ -20,7 +20,7 @@
                         </select>
                     </div>
 
-                    <div class="col-lg-3 mb-2">
+                    <div class="col-xl-3 col-lg-6 col-md-3 col-sm-6 mb-2">
                         <select class="form-select" aria-label="Default select example">
                             <option selected="">All Time Period</option>
                             <option value="1">Last 24 hours</option>
@@ -31,7 +31,7 @@
                         </select>
                     </div>
 
-                    <div class="col-lg-3 mb-2">
+                    <div class="col-xl-3 col-lg-6 col-md-3 col-sm-6 mb-2">
                         <select class="form-select" aria-label="Default select example">
                             <option selected="">All States</option>
                             <option value="1">Active</option>
@@ -40,7 +40,7 @@
                         </select>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-xl-3 col-lg-6 col-md-3 col-sm-6 mb-2">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="row tvi-checks-filters mb-2">
-                    <div class="col-md-4 d-flex mb-2">
+                    <div class="col-xl-4 col-lg-12 col-sm-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault1">
@@ -59,7 +59,7 @@
                         </label>
                     </div>
 
-                    <div class="col-md-4 d-flex mb-2">
+                    <div class="col-xl-4 col-lg-12 col-sm-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault2">
@@ -67,7 +67,7 @@
                         </label>
                     </div>
 
-                    <div class="col-md-4 d-flex mb-2">
+                    <div class="col-xl-4 col-lg-12 col-sm-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault3">
@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="row tvi-social-media-filters">
-                    <div class="col-lg-2 col-md-3 col-4 d-flex mb-2">
+                    <div class="col-xl-2 col-lg-4 col-md-3 col-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault3">
@@ -85,7 +85,7 @@
                         </label>
                     </div>
 
-                    <div class="col-lg-2 col-md-3 col-4 d-flex mb-2">
+                    <div class="col-xl-2 col-lg-4 col-md-3 col-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault3">
@@ -93,7 +93,7 @@
                         </label>
                     </div>
 
-                    <div class="col-lg-2 col-md-3 col-4 d-flex mb-2">
+                    <div class="col-xl-2 col-lg-4 col-md-3 col-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault3">
@@ -101,7 +101,7 @@
                         </label>
                     </div>
 
-                    <div class="col-lg-2 col-md-3 col-4 d-flex mb-2">
+                    <div class="col-xl-2 col-lg-4 col-md-3 col-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault3">
@@ -109,7 +109,7 @@
                         </label>
                     </div>
 
-                    <div class="col-lg-2 col-md-3 col-4 d-flex mb-2">
+                    <div class="col-xl-2 col-lg-4 col-md-3 col-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault3">
@@ -117,7 +117,7 @@
                         </label>
                     </div>
 
-                    <div class="col-lg-2 col-md-3 col-4 d-flex mb-2">
+                    <div class="col-xl-2 col-lg-4 col-md-3 col-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault3">

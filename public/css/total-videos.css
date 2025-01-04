@@ -121,3 +121,13 @@
     font-size: 12px;
     margin-left: 5px;
 }
+
+@media(max-width: 991px) {
+    .total-views-filters div select {
+        font-size: 11px;
+        height: 35px;
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 3px;
+    }
+}
