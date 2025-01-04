@@ -156,14 +156,7 @@
     }
 }
 
-@media(max-width: 767px) {
-    .select-campaigns div {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media(max-width: 575px) {
+@media(max-width: 991px) {
     .select-campaigns select {
         font-size: 16px;
         height: 40px;
@@ -178,4 +171,17 @@
         width: 100%;
         border-radius: 10px;
     }
+}
+
+@media(max-width: 767px) {
+    .select-campaigns div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 575px) {
+
+
+
 }
