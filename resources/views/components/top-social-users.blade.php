@@ -1,6 +1,12 @@
 <div class="card-dashboard mb-2">
     <div class="container-fluid">
         <div class="row mb-2">
+            <div class="d-flex justify-content-end">
+                <button class="three-button-menu">
+                    <i class="bi bi-three-dots"></i>
+                </button>
+            </div>
+
             <div class="col-md-6 d-flex">
                 <div class="logo">#</div>
                 <span class="card-title">TOP SOCIAL USERS</span>

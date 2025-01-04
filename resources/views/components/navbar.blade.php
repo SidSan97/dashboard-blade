@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">DASHBOARD</a>
 
@@ -19,6 +19,7 @@
                 </a>
 
                 <a class="nav-link" href="#">Will Lennon</a>
+                <img src="{{asset('img/man.jpg')}}" alt="Profile Picture" class="profile-picture">
             </div>
         </div>
     </div>

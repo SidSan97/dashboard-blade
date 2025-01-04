@@ -37,6 +37,8 @@
                                     @include('components/total-views')
 
                                     @include('components/top-social-users')
+
+                                    @include('components/posts')
                                 </div>
                             </div>
                         </div>

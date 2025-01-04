@@ -1,4 +1,9 @@
 <div class="card-dashboard">
+        <div class="d-flex justify-content-end btn-menu-te">
+            <button class="three-button-menu">
+                <i class="bi bi-three-dots"></i>
+            </button>
+        </div>
     <div class="total-earned d-flex justify-content-center align-items-center flex-column">
         <span class="mb-1">TOTAL EARNED</span>
 

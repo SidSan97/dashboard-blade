@@ -1,0 +1,37 @@
+.post-list {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.posts-data-user div {
+    margin-left: 8px;
+}
+
+.posts-data-user div span:nth-child(1) {
+    color: #666565;
+    font-weight: 600;
+    font-size: 9px;
+}
+
+.posts-data-user img{
+    width: 45px;
+    height: 45px;
+}
+
+.posts-user-engajament i {
+    margin-right: 5px;
+}
+
+.posts-country {
+    color: #959595;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 4px 0px 0px 3px;
+}
+
+.posts-content hr {
+    height: 2px !important;
+    color: #8d8b8b;
+    border-radius: 10px;
+}
