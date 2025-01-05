@@ -224,7 +224,7 @@
                                         <i class="bi bi-hand-thumbs-up"></i> <strong>750</strong>
                                     </div>
 
-                                    <div class="stat-item card-campaigns-chat">
+                                    <div class="stat-item card-campaigns-chat" onclick="openCommentsList(true)">
                                         <i class="bi bi-circle-fill"></i>
                                         <i class="bi bi-chat-left-text"></i> <strong>15</strong>
                                     </div>
@@ -291,8 +291,9 @@
                             </div>
                         </div>
 
-                        <div class="comments-container">
-                            <div class="card comment-card shadow-sm">
+                        <!-- CONTEUDO QUE APARECE QUANDO CLICA NO CHAT COM NOTIFICAÇÃO -->
+                        <div class="comments-container" id="comments-container" style="display: none;">
+                            <div class="card comment-card shadow-sm border-0">
                                 <div class="card-header d-flex align-items-center justify-content-between bg-white">
                                     <h6 class="m-0">
                                         <i class="bi bi-chat-left-text"></i> <strong>Comments on this campaign:</strong>
@@ -306,11 +307,55 @@
                                             <option value="3">Neutral</option>
                                         </select>
                                         <a href="#" class="text-primary text-decoration-none">See all</a>
-                                        <button type="button" class="btn-close ms-3" aria-label="Close"></button>
+                                        <button type="button" class="btn-close ms-3" aria-label="Close" onclick="openCommentsList(false)"></button>
                                     </div>
                                 </div>
 
-                                <div class="card-body d-flex p-3">
+                                <div class="card-body card-with-notification d-flex p-3">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-1 d-flex flex-column align-items-center justify-content-around">
+                                                <img src="{{asset('img/mulher.jpg')}}" alt="User Avatar" class="user-avatar me-3">
+                                                <span class="d-flex"><i class="bi bi-people-fill me-1"></i> 10k</span>
+                                                <i class="bi bi-person-add"></i>
+                                            </div>
+
+                                            <div class="col-10 main-content-comments">
+                                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                                    <strong class="m-0">@simonolivares.info</strong>
+                                                    <small class="text-muted">September 12, 2024</small>
+                                                </div>
+
+                                                <p class="comment-text mb-2">
+                                                    <i class="bi bi-chat-left-text"></i> Struggling with his dual identity, failed comedian Arthur Fleck meets the love of his life
+                                                    while incarcerated at Arkham State Hospital.
+                                                </p>
+
+                                                <div class="d-flex justify-content-between ms-3">
+                                                    <button class="btn btn-light btn-sm"><i class="bi bi-hand-thumbs-up"></i></button>
+                                                    <button class="btn btn-light btn-sm"><i class="bi bi-reply"></i></button>
+                                                    <button class="btn btn-light btn-sm"><i class="bi bi-pin"></i></button>
+                                                    <button class="btn btn-light btn-sm"><i class="bi bi-slash-circle"></i></button>
+                                                    <button class="btn btn-light btn-sm"><i class="bi bi-trash"></i></button>
+                                                    <button class="btn btn-light btn-sm"><i class="bi bi-three-dots"></i></button>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-1 d-flex flex-column align-items-center justify-content-around">
+                                                <div class="img-user2">
+                                                    <i class="bi bi-film"></i>
+                                                    <img src="{{asset('img/homem2.jpg')}}" alt="User Avatar" class="user-avatar2 me-3 rounded">
+                                                </div>
+
+                                                <span class="d-flex"><i class="bi bi-hand-thumbs-up-fill me-1"></i> 31</span>
+
+                                                <i class="bi bi-chat-left-text"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-body card-without-notification d-flex p-3">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-1 d-flex flex-column align-items-center justify-content-around">

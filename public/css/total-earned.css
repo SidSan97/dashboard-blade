@@ -22,3 +22,13 @@
     padding-right: 10px !important;
     height: 15px !important;
 }
+
+@media(max-width: 991px) {
+    .total-earned img {
+        width: 50px;
+    }
+
+    .total-earned i {
+        font-size: 50px;
+    }
+}

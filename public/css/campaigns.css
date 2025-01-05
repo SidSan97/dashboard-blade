@@ -177,7 +177,7 @@
 
 .comment-text {
     font-size: 12px;
-    color: #959595;
+    color: #504d4d;
 }
 
 .btn-light {
@@ -221,6 +221,16 @@
 
 a.text-primary:hover {
     text-decoration: underline;
+}
+
+.card-with-notification {
+    border: 1px solid cyan;
+    background-color: #f9ffff;
+}
+
+.card-without-notification {
+    border: 1px solid #cecece;
+    background-color: #f4f4f4;
 }
 
 @media(min-width: 1500px) {
@@ -275,12 +285,24 @@ a.text-primary:hover {
         border-radius: 10px;
         margin-right: 3px;
     }
+
+    .main-content-comments strong {
+        font-size: 14px;
+    }
+
+    .comment-text {
+        font-size: 14px;
+    }
 }
 
 @media(max-width: 767px) {
     .select-campaigns div {
         display: flex;
         justify-content: center;
+    }
+
+    .m-0 {
+        font-size: 14px;
     }
 }
 

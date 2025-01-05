@@ -50,7 +50,24 @@
     .published-video-filters select {
         font-size: 15px;
         height: 37px;
-        width: 250px;
+        width: 100%;
         border-radius: 10px;
+    }
+
+    .total-videos-engajament div:nth-child(1) span {
+        font-size: 30px;
+    }
+
+    .total-videos-engajament i {
+        font-size: 37px !important;
+    }
+
+    .pv-info span {
+        font-size: 35px;
+        margin: 0 20px 0 20px;
+    }
+
+    .pv-info i {
+        font-size: 30px !important;
     }
 }
