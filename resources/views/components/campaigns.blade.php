@@ -331,7 +331,7 @@
                                                     while incarcerated at Arkham State Hospital.
                                                 </p>
 
-                                                <div class="d-flex justify-content-between ms-3">
+                                                <div class="d-flex justify-content-between ms-3 actions-active">
                                                     <button class="btn btn-light btn-sm"><i class="bi bi-hand-thumbs-up"></i></button>
                                                     <button class="btn btn-light btn-sm"><i class="bi bi-reply"></i></button>
                                                     <button class="btn btn-light btn-sm"><i class="bi bi-pin"></i></button>
@@ -375,7 +375,7 @@
                                                     while incarcerated at Arkham State Hospital.
                                                 </p>
 
-                                                <div class="d-flex justify-content-between ms-3">
+                                                <div class="d-flex justify-content-between ms-3 actions-no-active">
                                                     <button class="btn btn-light btn-sm"><i class="bi bi-hand-thumbs-up"></i></button>
                                                     <button class="btn btn-light btn-sm"><i class="bi bi-reply"></i></button>
                                                     <button class="btn btn-light btn-sm"><i class="bi bi-pin"></i></button>

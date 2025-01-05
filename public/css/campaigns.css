@@ -233,6 +233,14 @@ a.text-primary:hover {
     background-color: #f4f4f4;
 }
 
+.actions-active button{
+    background-color: #f9ffff;
+}
+
+.actions-no-active button{
+    background-color: #f4f4f4;
+}
+
 @media(min-width: 1500px) {
     .flags {
         gap: 10px;
