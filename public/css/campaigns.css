@@ -27,6 +27,18 @@
     border-radius: 5px;
 }
 
+.card-campaigns-chat {
+    position: relative;
+    cursor: pointer;
+}
+
+.card-campaigns-chat i:nth-child(1) {
+    color: #0dcaf0;
+    font-size: 8px;
+    position: absolute;
+    margin-left: 10px;
+}
+
 /*card*/
 .flags {
     display: flex;
@@ -127,6 +139,88 @@
 
 .social-media-status img {
     max-width: 50px;
+}
+
+/*comments*/
+.comment-card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-bottom: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-avatar2 {
+    width: 50px;
+    height: 40px;
+}
+
+.img-user2 {
+    position: relative;
+}
+
+.img-user2 i {
+    position: absolute;
+    font-size: 26px;
+    top: 10px;
+}
+
+.comment-text {
+    font-size: 12px;
+    color: #959595;
+}
+
+.btn-light {
+    border: none;
+    color: #6c757d;
+    background-color: transparent;
+    font-size: 1.1rem;
+}
+
+.btn-light:hover {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+}
+
+.text-muted {
+    font-size: 10px;
+    margin-right: 17px;
+}
+
+.main-content-comments strong {
+    font-size: 12px;
+}
+
+.card-body {
+    background-color: #f5f9ff;
+    border-radius: 10px;
+}
+
+.card-body .bi-hand-thumbs-up {
+    color: #007bff;
+}
+
+.card-body .bi-trash:hover {
+    color: red;
+}
+
+.card-body .bi-person-add {
+    font-size: 20px;
+}
+
+a.text-primary:hover {
+    text-decoration: underline;
 }
 
 @media(min-width: 1500px) {
