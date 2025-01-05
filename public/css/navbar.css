@@ -60,4 +60,8 @@
     .notification-badge {
         left: 12px;
     }
+
+    .navbar-brand {
+        margin-left: 0 !important;
+    }
 }

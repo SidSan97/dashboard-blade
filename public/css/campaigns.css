@@ -67,21 +67,21 @@
     border: 1px solid #198754;
     padding: 5px;
     border-radius: 5px;
-    background-color: #f3fff3;
+    background-color: #ededed;
 }
 
 .evolution-gaming-dataset-neutro {
     border: 1px solid #6c757d;
     padding: 5px;
     border-radius: 5px;
-    background-color: #66666617;
+    background-color: #ebe7e75e;
 }
 
 .evolution-gaming-dataset-loser {
     border: 1px solid #dc3545;
     padding: 5px;
     border-radius: 5px;
-    background-color: #fff7f7;
+    background-color: #f5eeee;
 }
 
 .evolution-gaming-filters select {

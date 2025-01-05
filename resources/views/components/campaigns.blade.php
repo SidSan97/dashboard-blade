@@ -77,6 +77,7 @@
             </div>
         </div>
 
+        <!-- INICIO DOS CONTEUDOS DO CARD -->
         <div class="card-campaigns mb-4">
             <div class="card-top d-flex justify-content-around align-items-center mb-3">
                 <span>01</span>
@@ -292,6 +293,7 @@
                 </div>
             </div>
         </div>
+        <!-- FIM DOS CONTEUDOS -->
 
         <div class="card-campaigns mb-4">
             <div class="card-top d-flex justify-content-around align-items-center mb-3">

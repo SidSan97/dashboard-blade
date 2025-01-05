@@ -1,8 +1,12 @@
 <div class="card-dashboard">
     <div class="published-videos">
-        <div class="col-12 d-flex mb-2">
-            <div class="logo">#</div>
-            <span class="card-title">PUBLISHED VIDEOS</span>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex mb-2">
+                    <div class="logo">#</div>
+                    <span class="card-title">PUBLISHED VIDEOS</span>
+                </div>
+            </div>
         </div>
 
         <div class="published-video-filters">
