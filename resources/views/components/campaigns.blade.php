@@ -311,7 +311,7 @@
                                     </div>
                                 </div>
 
-                                <div class="card-body card-with-notification d-flex p-3">
+                                <div class="card-body card-with-notification d-flex p-3 mb-2">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-1 d-flex flex-column align-items-center justify-content-around">
