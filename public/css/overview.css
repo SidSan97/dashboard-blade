@@ -102,4 +102,16 @@
     .select-overview select {
         width: 100%;
     }
+
+    .overview-visualize i {
+        font-size: 22px;
+    }
+
+    .quantity-overviews {
+        font-size: 20px !important;
+    }
+
+    .flags {
+        flex-wrap: wrap;
+    }
 }

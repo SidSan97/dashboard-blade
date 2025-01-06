@@ -154,7 +154,7 @@
                         </div>
 
                         <div class="row mb-2">
-                            <div class="col-11">
+                            <div class="col-sm-11 col-9">
                                 <div class="evolution-gaming-users">
                                     <i class="bi bi-person-fill"></i>
                                     <strong>Joon</strong> (Stake) (Korea) - <strong>Yui</strong> (Stake) (Japan) -
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-1 d-flex justify-content-end">
+                            <div class="col-sm-1 col-3 d-flex justify-content-end">
                                 <button class="three-button-menu">
                                     <i class="bi bi-three-dots"></i>
                                 </button>
@@ -294,7 +294,7 @@
                         <!-- CONTEUDO QUE APARECE QUANDO CLICA NO CHAT COM NOTIFICAÇÃO -->
                         <div class="comments-container" id="comments-container" style="display: none;">
                             <div class="card comment-card shadow-sm border-0">
-                                <div class="card-header d-flex align-items-center justify-content-between bg-white">
+                                <div class="card-header d-flex flex-sm-row flex-column align-items-center justify-content-between bg-white">
                                     <h6 class="m-0">
                                         <i class="bi bi-chat-left-text"></i> <strong>Comments on this campaign:</strong>
                                     </h6>
@@ -314,13 +314,13 @@
                                 <div class="card-body card-with-notification d-flex p-3 mb-2">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-1 d-flex flex-column align-items-center justify-content-around">
+                                            <div class="col-sm-1 col-12 d-flex flex-sm-column align-items-center justify-content-around">
                                                 <img src="{{asset('img/mulher.jpg')}}" alt="User Avatar" class="user-avatar me-3">
                                                 <span class="d-flex"><i class="bi bi-people-fill me-1"></i> 10k</span>
                                                 <i class="bi bi-person-add"></i>
                                             </div>
 
-                                            <div class="col-10 main-content-comments">
+                                            <div class="col-sm-10 col-12 main-content-comments">
                                                 <div class="d-flex justify-content-between align-items-center mb-2">
                                                     <strong class="m-0">@simonolivares.info</strong>
                                                     <small class="text-muted">September 12, 2024</small>
@@ -341,7 +341,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-1 d-flex flex-column align-items-center justify-content-around">
+                                            <div class="col-sm-1 col-12 d-flex flex-sm-column align-items-center justify-content-around">
                                                 <div class="img-user2">
                                                     <i class="bi bi-film"></i>
                                                     <img src="{{asset('img/homem2.jpg')}}" alt="User Avatar" class="user-avatar2 me-3 rounded">
@@ -358,13 +358,13 @@
                                 <div class="card-body card-without-notification d-flex p-3">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-1 d-flex flex-column align-items-center justify-content-around">
+                                            <div class="col-sm-1 col-12 d-flex flex-sm-column align-items-center justify-content-around">
                                                 <img src="{{asset('img/mulher.jpg')}}" alt="User Avatar" class="user-avatar me-3">
                                                 <span class="d-flex"><i class="bi bi-people-fill me-1"></i> 10k</span>
                                                 <i class="bi bi-person-add"></i>
                                             </div>
 
-                                            <div class="col-10 main-content-comments">
+                                            <div class="col-sm-10 col-12 main-content-comments">
                                                 <div class="d-flex justify-content-between align-items-center mb-2">
                                                     <strong class="m-0">@simonolivares.info</strong>
                                                     <small class="text-muted">September 12, 2024</small>
@@ -385,7 +385,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-1 d-flex flex-column align-items-center justify-content-around">
+                                            <div class="col-sm-1 col-12 d-flex flex-sm-column align-items-center justify-content-around">
                                                 <div class="img-user2">
                                                     <i class="bi bi-film"></i>
                                                     <img src="{{asset('img/homem2.jpg')}}" alt="User Avatar" class="user-avatar2 me-3 rounded">
@@ -482,7 +482,7 @@
                         </div>
 
                         <div class="row mb-2">
-                            <div class="col-11">
+                            <div class="col-sm-11 col-9">
                                 <div class="evolution-gaming-users">
                                     <i class="bi bi-person-fill"></i>
                                     <strong>Joon</strong> (Stake) (Korea) - <strong>Yui</strong> (Stake) (Japan) -
@@ -491,7 +491,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-1 d-flex justify-content-end">
+                            <div class="col-sm-1 col-3 d-flex justify-content-end">
                                 <button class="three-button-menu">
                                     <i class="bi bi-three-dots"></i>
                                 </button>
@@ -697,7 +697,7 @@
                         </div>
 
                         <div class="row mb-2">
-                            <div class="col-11">
+                            <div class="col-sm-11 col-9">
                                 <div class="evolution-gaming-users">
                                     <i class="bi bi-person-fill"></i>
                                     <strong>Joon</strong> (Stake) (Korea) - <strong>Yui</strong> (Stake) (Japan) -
@@ -706,7 +706,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-1 d-flex justify-content-end">
+                            <div class="col-sm-1 col-3 d-flex justify-content-end">
                                 <button class="three-button-menu">
                                     <i class="bi bi-three-dots"></i>
                                 </button>
@@ -913,7 +913,7 @@
                         </div>
 
                         <div class="row mb-2">
-                            <div class="col-11">
+                            <div class="col-sm-11 col-9">
                                 <div class="evolution-gaming-users">
                                     <i class="bi bi-person-fill"></i>
                                     <strong>Joon</strong> (Stake) (Korea) - <strong>Yui</strong> (Stake) (Japan) -
@@ -922,7 +922,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-1 d-flex justify-content-end">
+                            <div class="col-sm-1 col-3 d-flex justify-content-end">
                                 <button class="three-button-menu">
                                     <i class="bi bi-three-dots"></i>
                                 </button>
@@ -1129,7 +1129,7 @@
                         </div>
 
                         <div class="row mb-2">
-                            <div class="col-11">
+                            <div class="col-sm-11 col-9">
                                 <div class="evolution-gaming-users">
                                     <i class="bi bi-person-fill"></i>
                                     <strong>Joon</strong> (Stake) (Korea) - <strong>Yui</strong> (Stake) (Japan) -
@@ -1138,7 +1138,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-1 d-flex justify-content-end">
+                            <div class="col-sm-1 col-3 d-flex justify-content-end">
                                 <button class="three-button-menu">
                                     <i class="bi bi-three-dots"></i>
                                 </button>
