@@ -1,7 +1,5 @@
 * {
-    font-family: "Manrope", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+    font-family: "Poppins", serif;
 }
 
 body {
@@ -37,10 +35,12 @@ body {
 }
 
 .card-title {
-    font-style: italic;
+    color: #3A3A3A;
     margin-left: 10px;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
 }
 
 .pagination {

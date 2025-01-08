@@ -35,14 +35,23 @@
 }
 
 .overviews-info {
-    font-weight: 800 !important;
-    color: #666565;
+    font-weight: 700 !important;
+    color: #909090;
+    line-height: 20px;
+}
+
+.overviews-info2 {
+    font-weight: 700 !important;
+    color: #60BF41;
+    line-height: 20px;
 }
 
 .quantity-overviews {
-    font-weight: 700;
+    font-weight: 500;
     margin: 0px 3px 0px 3px;
-    font-size: 21px !important;
+    font-size: 25px !important;
+    line-height: 25px;
+    color: #3a3a3a;
 }
 
 .three-button-menu {

@@ -2,20 +2,28 @@
     width: 28px;
 }
 
-.total-earned i {
-    font-size: 25px;
+.total-earned span:first-child {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700 !important;
+    color: #909090;
+    line-height: 20px;
 }
 
-.total-earned span:first-child, .total-earned span:last-child {
+.total-earned span:last-child {
+    color: #60BF41;
+    font-size: 16px;
+    line-height: 20px;
     font-style: italic;
-    font-size: 14px;
-    font-weight: 800 !important;
-    color: #666565;
+    font-weight: 700;
 }
 
 .total-earned-quantity {
-    font-size: 30px;
-    font-weight: 800;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 20px;
+    color: #60BF41;
 }
 
 .btn-menu-te {
