@@ -7,12 +7,17 @@
 }
 
 .total-invested span:nth-child(1) {
-    font-weight: 800;
-    margin-right: 15px;
-    color: #666565;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 20px;
+    color: #909090;
+    margin-right: 13px;
 }
 
 .total-invested span:last-child {
-    color: #e77d1f;
+    color: #FF9900;
     font-weight: 700;
+    line-height: 20px;
+    font-size: 18px;
 }
