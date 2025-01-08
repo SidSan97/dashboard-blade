@@ -83,7 +83,7 @@
         <div class="row justify-content-around">
             <div class="col-lg-2 d-flex overview-media-data p-0 mb-2">
                 <div class="overview-logos">
-                    <img src="{{asset('img/instagram-logo.png')}}" alt="">
+                    <img class="rounded" src="{{asset('img/instagram-logo.png')}}" alt="">
                 </div>
 
                 <div class="d-flex flex-column">
@@ -102,7 +102,7 @@
 
             <div class="col-lg-2 d-flex overview-media-data p-0 mb-2">
                 <div class="overview-logos">
-                    <img src="{{asset('img/facebook-logo.png')}}" alt="">
+                    <img class="rounded" src="{{asset('img/facebook-logo.png')}}" alt="">
                 </div>
 
                 <div class="d-flex flex-column">
@@ -121,7 +121,7 @@
 
             <div class="col-lg-2 d-flex overview-media-data p-0 mb-2">
                 <div class="overview-logos">
-                    <img src="{{asset('img/tiktok-logo.png')}}" alt="">
+                    <img class="rounded" src="{{asset('img/tiktok-logo.png')}}" alt="">
                 </div>
 
                 <div class="d-flex flex-column">
@@ -140,7 +140,7 @@
 
             <div class="col-lg-2 d-flex overview-media-data p-0 mb-2">
                 <div class="overview-logos">
-                    <img src="{{asset('img/youtube-logo.png')}}" alt="">
+                    <img class="rounded" src="{{asset('img/youtube-logo.png')}}" alt="">
                 </div>
 
                 <div class="d-flex flex-column">
@@ -159,7 +159,7 @@
 
             <div class="col-lg-2 d-flex overview-media-data p-0 mb-2">
                 <div class="overview-logos">
-                    <img src="{{asset('img/x-logo.png')}}" alt="">
+                    <img class="rounded" src="{{asset('img/x-logo.png')}}" alt="">
                 </div>
 
                 <div class="d-flex flex-column">
@@ -178,7 +178,7 @@
 
             <div class="col-lg-2 d-flex overview-media-data p-0 mb-2">
                 <div class="overview-logos">
-                    <img src="{{asset('img/threads-logo.png')}}" alt="">
+                    <img class="rounded" src="{{asset('img/threads-logo.png')}}" alt="">
                 </div>
 
                 <div class="d-flex flex-column">
