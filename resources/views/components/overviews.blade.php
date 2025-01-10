@@ -1,6 +1,6 @@
 <div class="card-dashboard mb-2">
     <div class="container-fluid">
-        <div class="mb-2 mb-2 d-flex justify-content-between">
+        <div class="mb-2 mb-2 d-flex justify-content-between" style="margin-left: -11px;">
             <div class="d-flex">
                 <div class="logo">#</div>
                 <span class="card-title">OVERVIEW</span>
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center overview-video-data">
                 <div class="d-flex flex-column align-items-center overview-visualize">
                     <div><span class="overviews-info">PUBLISHED VIDEOS</span></div>
 
@@ -93,7 +93,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-around">
+        <div class="row justify-content-between">
             <div class="col-lg-2 d-flex overview-media-data mb-2">
                 <div class="overview-logos">
                     <img class="rounded" src="{{asset('img/instagram-logo.png')}}" alt="">

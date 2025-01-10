@@ -10,6 +10,7 @@ body {
     width: auto !important;
     padding-top: 15px;
     margin-top: 70px;
+    margin-left: 160px;
 }
 
 .three-button-menu {
@@ -20,18 +21,20 @@ body {
     border-radius: 10px;
     padding: 15px 0px 15px 0px;
     background-color:rgb(242 246 247 / 78%);
+    box-shadow: 0px 4px 20px 0px #0000000D;
 }
 
 .logo {
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 14px;
     color: white;
     align-items: center;
     justify-content: center;
     display: flex;
     background: black;
-    width: 30px !important;
+    width: 25px !important;
     border-radius: 50px;
-    height: 30px;
+    height: 25px;
 }
 
 .card-title {
@@ -70,8 +73,15 @@ body {
     display: none !important;
 }
 
-@media (max-width: 575px) {
-    .sidebar-col {
-        display: none !important;
+@media (max-width: 1199.99px) {
+    .main-content {
+        margin-left: 75px !important;
     }
 }
+
+@media (max-width: 991px) {
+    .main-content {
+        margin-left: 0 !important;
+    }
+}
+

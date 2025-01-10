@@ -1,5 +1,5 @@
 const data2 = {
-    labels: ['23 SET', '24', '25', '26', '27', '28', '29', '30', '01 OUT', '02', '03', '04', '05', '06'],
+    labels: ['23', '24', '25', '26', '27', '28', '29', '30', '01', '02', '03', '04', '05', '06'],
     datasets: [
       {
         label: 'Dataset 1',
@@ -8,8 +8,8 @@ const data2 = {
         backgroundColor: 'rgba(255, 63, 142, 0.1)',
         pointBorderColor: '#FF3F8E',
         pointBackgroundColor: '#fff',
-        pointRadius: 0,
-        pointHoverRadius: 8,
+        pointRadius: [0, 0, 0, 0, 0, 0, 0, 0, 5, 0 ,0, 0, 0, 0], // Tamanho dos pontos
+        pointHoverRadius: 8, // Tamanho do ponto no hover
         tension: 0.4,
       },
       {
@@ -48,10 +48,11 @@ const config2 = {
             display: true,
             text: 'VIEWS',
             align: 'start',
-            color: '#333',
+            color: '#3A3A3A',
             font: {
-                size: 16,
-                weight: 'bold',
+                size: 12,
+                weight: 600,
+                family: 'Poppins'
             },
             padding: {
                 top: 10,
@@ -80,7 +81,8 @@ const config2 = {
             x: {
                 grid: {
                     display: true,
-                    color: '#eef2f5',
+                    color: '#3a3a3a0d',
+                    lineWidth: 3,
                 },
                 ticks: {
                     color: '#a0a0a0',
@@ -89,7 +91,8 @@ const config2 = {
             y: {
                 grid: {
                     display: true,
-                    color: '#eef2f5',
+                    color: '#3a3a3a0d',
+                    lineWidth: 3,
                 },
                 ticks: {
                     color: '#a0a0a0',

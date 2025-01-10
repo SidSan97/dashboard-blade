@@ -1,27 +1,29 @@
 .total-views-filters div select{
-    font-size: 11px;
-    height: 30px;
-    width: 115px;
-    border-radius: 10px;
+    font-size: 9px;
+    height: 25px;
+    width: 128px;
+    border-radius: 7px;
     margin-right: 3px;
 }
 
 .total-views-filters div label {
     font-size: 12px;
-    font-weight: 800;
-    color: #666565;
+    font-weight: 500;
+    color: #838383;
+    line-height: 17px;
 }
 
 .tvi-checks-filters label {
     font-size: 12px;
-    font-weight: 800;
-    color: #666565;
+    font-weight: 500;
+    color: #838383;
+    line-height: 17px;
     margin-top: 3px;
 }
 
 .tvi-checks-filters i {
-    margin: 4px 6px 0px 6px;
-    font-size: 12px;
+    margin: 7px 6px 0px 6px;
+    font-size: 8px;
 }
 
 .tvi-checks-filters div:nth-child(1) i {
@@ -37,12 +39,13 @@
 }
 
 .tvi-social-media-filters div img {
-    max-width: 25px;
+    width: 22px;
+    height: 22px;
 }
 
 .tvi-social-media-filters div i {
-    font-size: 10px;
-    margin: 8px 4px 0px 4px;
+    font-size: 8px;
+    margin: 8px 7px 0px 7px;
 }
 
 .tvi-social-media-filters div:nth-child(1) i {
@@ -73,20 +76,33 @@
     font-size: 11px;
 }
 
-.total-videos-engajament i{
-    font-size: 20px;
+.total-videos-engajament i {
+    font-size: 16px;
     color: #666565;
     margin-top: 5px;
 }
 
-.total-videos-engajament div:nth-child(1) span{
+.tvi-quantity {
+    font-weight: 500;
     font-size: 25px;
+    font-style: italic;
+    line-height: 20px;
+    color: #3A3A3A;
+}
+
+.total-videos-engajament div:nth-child(1) span{
+    font-weight: 500;
+    margin: 0px 5px 0px 5px;
+    font-size: 25px !important;
+    line-height: 25px;
+    color: #3a3a3a;
 }
 
 .total-videos-engajament div:nth-child(2) span{
-    font-size: 13px;
-    color: #666565;
-    font-weight: 800;
+    font-weight: 700 !important;
+    color: #909090;
+    line-height: 20px;
+    font-size: 10px;
     font-style: italic;
 }
 
@@ -97,29 +113,25 @@
     margin-top: 10px;
 }
 
-.tvi-country span {
-    font-weight: 600;
-    font-size: 14px;
-    margin-top: 7px;
-    color: #666565;
-}
-
 .tvi-chart-container {
     background-color: rgb(251, 251, 251);
-    border-radius: 5px;
-    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 0px 4px 20px 0px #0000001A;
 }
 
 .tvi-chart-container canvas {
-    height: 350px !important;
+    height: 310px !important;
     width: 100% !important;
 }
 
-.tvi-chart-container span {
-    color: #030303;
-    font-weight: 800;
+.chart-year {
     font-size: 12px;
-    margin-left: 5px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.4200301766395569px;
+    text-decoration-skip-ink: none;
+    color: #3A3A3A;
 }
 
 @media(min-width: 1400px) {

@@ -1,6 +1,6 @@
 // Dados do gráfico
 const data = {
-    labels: ['23 SET', '24', '25', '26', '27', '28', '29', '30', '01 OUT', '02', '03', '04', '05', '06'],
+    labels: ['23', '24', '25', '26', '27', '28', '29', '30', '01', '02', '03', '04', '05', '06'],
     datasets: [{
         label: 'Videos',
         data: [0, 40, 140, 160, 80, 50, 100, 120, 118, 90, 100, 140, 110, 80],
@@ -45,12 +45,12 @@ const config = {
             }
         },
         subtitle: {
-            display: true,
+            display: false,
             text: 'September 12, 2024 / December 12, 2024',
             color: 'black',
             font: {
                 size: 12,
-                family: 'tahoma',
+                family: 'poppins',
                 weight: 'normal',
                 //style: 'bold'
             },
@@ -63,20 +63,18 @@ const config = {
         x: {
             grid: {
                 display: true, // Mostra o grid no eixo X
-                color: '#eef2f5',
+                color: '#3a3a3a0d',
+                lineWidth: 3,
             },
             ticks: {
-                color: '#212529', // Cor dos rótulos do eixo X
-                font: {
-                    size: 10,
-                    //style: 'bold',
-                }
+                color: '#a0a0a0', // Cor dos rótulos do eixo X
             }
         },
         y: {
             grid: {
                 display: true, // Mostra o grid no eixo Y
-                color: '#eef2f5',
+                color: '#3a3a3a0d',
+                lineWidth: 3,
             },
             ticks: {
                 color: '#a0a0a0', // Cor dos rótulos do eixo Y

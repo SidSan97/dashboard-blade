@@ -1,40 +1,68 @@
 .published-video-filters select {
-    font-size: 10px;
-    height: 29px;
-    width: 120px;
-    border-radius: 10px;
+    font-size: 9px;
+    height: 25px;
+    width: 128px;
+    border-radius: 7px;
 }
 
 .pv-info span{
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 500;
     margin: 0px 5px 0px 5px;
+    font-size: 25px !important;
+    font-style: italic;
+    line-height: 25px;
+    color: #3a3a3a;
 }
 
 .pv-info-text {
+    font-weight: 700 !important;
+    color: #909090;
+    line-height: 20px;
     font-style: italic;
+    font-size: 10px;
+}
+
+.pv-months {
+    display: block;
+}
+
+.pv-months strong{
+    font-weight: 700;
+    line-height: 20px;
     font-size: 11px;
-    font-weight: 800 !important;
-    color: #666565;
+    color: #3a3a3a;
+    margin-right: 5px;
+}
+
+.pv-months span {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    color: #bbb8b8;
+}
+
+.m1 {
+    margin-right: 14px;
+}
+
+.dm-2 {
+    margin-top: -4px;
+}
+
+.month-legend {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #838383;
+}
+
+.month-legend span {
+    margin-left: 55px;
 }
 
 .chart-container {
     background-color: rgb(251, 251, 251);
     border-radius: 5px;
-}
-
-.chart-container div span {
-    color: #6c6b6b;
-    font-weight: 800;
-    font-size: 10px;
-    margin-left: 5px;
-}
-
-.chart-container span {
-    color: #030303;
-    font-weight: 800;
-    font-size: 12px;
-    margin-left: 5px;
 }
 
 @media(min-width: 1400px) {
