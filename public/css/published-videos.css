@@ -63,16 +63,18 @@
 .chart-container {
     background-color: rgb(251, 251, 251);
     border-radius: 5px;
+    padding-bottom: 15px;
+    box-shadow: 0px 4px 20px 0px #0000001A;
 }
 
-@media(min-width: 1400px) {
+/*@media(min-width: 1400px) {
     .published-video-filters select {
         font-size: 12px;
         height: 35px;
         width: 100%;
         border-radius: 10px;
     }
-}
+}*/
 
 @media(max-width: 991px) {
     .published-video-filters select {
@@ -84,10 +86,6 @@
 
     .total-videos-engajament div:nth-child(1) span {
         font-size: 30px;
-    }
-
-    .total-videos-engajament i {
-        font-size: 37px !important;
     }
 
     .pv-info span {

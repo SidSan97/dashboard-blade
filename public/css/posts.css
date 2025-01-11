@@ -37,14 +37,14 @@
 }
 
 .select-post select {
-    font-size: 11px;
-    height: 30px;
-    width: 130px;
-    border-radius: 10px;
+    font-size: 9px;
+    height: 25px;
+    width: 128px;
+    border-radius: 7px;
     margin-right: 3px;
 }
 
-@media(min-width: 1400px){
+/*@media(min-width: 1400px){
     .select-post select {
         font-size: 14px;
         height: 35px;
@@ -52,7 +52,7 @@
         border-radius: 10px;
         margin-right: 3px;
     }
-}
+}*/
 
 /*@media(min-width: 992px) and (max-width: 1250px) {
     .posts-data-user div span:nth-child(2) {

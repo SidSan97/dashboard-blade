@@ -207,7 +207,9 @@
                         </div>
                     </div>
 
-                    <canvas id="multiLineChart"></canvas>
+                    <div>
+                        <canvas id="multiLineChart"></canvas>
+                    </div>
 
                     <div class="row month-legend">
                         <div class="col-6"><span>SET</span></div>

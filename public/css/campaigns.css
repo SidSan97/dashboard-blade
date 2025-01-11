@@ -5,8 +5,8 @@
 .select-campaigns select{
     font-size: 9px;
     height: 25px;
-    width: 130px;
-    border-radius: 8px;
+    width: 128px;
+    border-radius: 7px;
     margin-right: 3px;
 }
 
@@ -304,13 +304,13 @@ a.text-primary:hover {
         border-radius: 10px;
     }
 
-    .select-campaigns select {
+    /*.select-campaigns select {
         font-size: 9px;
         height: 25px;
         width: 152px;
         border-radius: 8px;
         margin-right: 3px;
-    }
+    }*/
 }
 
 @media(max-width: 1330px) {
