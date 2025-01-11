@@ -37,6 +37,10 @@
     cursor: pointer;
 }
 
+.comments-container {
+    width: 400px;
+}
+
 .card-campaigns-chat i:nth-child(1) {
     color: #0dcaf0;
     font-size: 8px;
@@ -302,6 +306,10 @@ a.text-primary:hover {
         height: 25px;
         width: 128px;
         border-radius: 10px;
+    }
+
+    .comments-container {
+        width: 485px;
     }
 
     /*.select-campaigns select {
