@@ -1,6 +1,6 @@
 .post-list {
     background-color: white;
-    padding: 5px;
+    padding: 10px 0px 10px 0px;
     border-radius: 8px;
 }
 
@@ -15,19 +15,32 @@
 }
 
 .posts-data-user img{
-    width: 45px;
-    height: 45px;
+    width: 41px;
+    height: 41px;
+}
+
+.posts-data-user strong {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #3A3A3A;
+}
+
+.user-name {
+    font-size: 13px;
+    line-height: 20px;
 }
 
 .posts-user-engajament i {
     margin-right: 5px;
 }
 
-.posts-country {
-    color: #959595;
-    font-size: 11px;
-    font-weight: 600;
-    margin: 4px 0px 0px 3px;
+.posts-views svg {
+    margin-right: 5px;
+}
+
+.posts-content {
+    padding: 0px 10px 0px 10px;
 }
 
 .posts-content hr {
@@ -64,6 +77,12 @@
     }
 }*/
 
+@media (min-width: 1400px) {
+    .posts-content {
+        padding: 0px 15px 0px 15px;
+    }
+}
+
 @media(max-width: 1199.99px){
     .select-post select {
         font-size: 14px;
@@ -71,5 +90,11 @@
         width: 100%;
         border-radius: 10px;
         margin-right: 3px;
+    }
+}
+
+@media (max-width: 991px) {
+    .posts-content {
+        padding: 0px 15px 0px 15px;
     }
 }
