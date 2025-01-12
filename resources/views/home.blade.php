@@ -7,10 +7,6 @@
 
         <div class="container-fluid">
             <div class="row">
-                <!--div class="col-xl-2 col-lg-1 d-lg-block d-sm-none sidebar-col">
-                    @include('components/sidebar')
-                </div-->
-
                 <div class="col-12">
                     @include('components/sidebar')
 

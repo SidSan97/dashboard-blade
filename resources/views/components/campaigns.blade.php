@@ -80,23 +80,29 @@
         <!-- INICIO DOS CONTEUDOS DO CARD -->
         <div class="card-campaigns mb-4">
             <div class="container-fluid">
+                <div class="d-flex d-lg-none mb-2 justify-content-between">
+                    <span class="card-campaign-num">01</span>
+                    <span class="card-campaign-title">Evolution Gaming Live Table Games and Game Shows</span>
+                    <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
+                </div>
+
                 <div class="row mb-2">
                     <div class="col-lg-1 mb-2 p-0">
                         <div class="social-media-status d-flex flex-column align-items-center">
-                            <span class="card-campaign-num">01</span>
+                            <span class="card-campaign-num d-none d-lg-block">01</span>
                             <img src="{{asset('img/instagram-logo.png')}}">
                             <span class="text-success text-center fw-bold mt-2">ON</span>
                         </div>
                     </div>
 
                     <div class="col-lg-11">
-                        <div class="w-100 d-flex justify-content-between mb-2">
+                        <div class="w-100 d-lg-flex d-none justify-content-between mb-2">
                             <span class="card-campaign-title">Evolution Gaming Live Table Games and Game Shows</span>
                             <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
                         </div>
 
                         <div class="d-flex mb-2 flags-menu">
-                            <div class="container-fluid p-0 d-flex">
+                            <div class="container-fluid p-0 d-flex mb-2">
                                 <div class="flags">
                                     <div class="d-flex align-items-center">
                                         <img src="{{asset('img/flags/brasil.png')}}" alt="BR" class="rounded">
@@ -545,17 +551,23 @@
 
         <div class="card-campaigns mb-4">
             <div class="container-fluid">
+                <div class="d-flex d-lg-none mb-2 justify-content-between">
+                    <span class="card-campaign-num">02</span>
+                    <span class="card-campaign-title">Stake Originals</span>
+                    <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
+                </div>
+
                 <div class="row mb-2">
                     <div class="col-lg-1 mb-2 p-0">
                         <div class="social-media-status d-flex flex-column align-items-center">
-                            <span class="card-campaign-num">02</span>
+                            <span class="card-campaign-num d-lg-flex d-none">02</span>
                             <img src="{{asset('img/facebook-logo.png')}}">
                             <span class="text-success text-center fw-bold mt-2">ON</span>
                         </div>
                     </div>
 
                     <div class="col-lg-11">
-                        <div class="w-100 d-flex justify-content-between mb-2">
+                        <div class="w-100 d-flex justify-content-between mb-2 d-lg-flex d-none">
                             <span class="card-campaign-title">Stake Originals</span>
                             <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
                         </div>
@@ -777,17 +789,23 @@
 
         <div class="card-campaigns mb-4">
             <div class="container-fluid">
+                <div class="d-flex d-lg-none mb-2 justify-content-between">
+                    <span class="card-campaign-num">03</span>
+                    <span class="card-campaign-title">Evolution Gaming Live Table Games and Game Shows</span>
+                    <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
+                </div>
+
                 <div class="row mb-2">
                     <div class="col-lg-1 mb-2 p-0">
                         <div class="social-media-status d-flex flex-column align-items-center">
-                            <span class="card-campaign-num">03</span>
+                            <span class="card-campaign-num d-lg-flex d-none">03</span>
                             <img src="{{asset('img/tiktok-logo.png')}}">
                             <span class="text-warning text-center fw-bold mt-2">HOLD</span>
                         </div>
                     </div>
 
                     <div class="col-lg-11">
-                        <div class="w-100 d-flex justify-content-between mb-2">
+                        <div class="w-100 d-flex justify-content-between mb-2 d-lg-flex d-none">
                             <span class="card-campaign-title">How To Play Casino Online</span>
                             <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
                         </div>
