@@ -1,4 +1,4 @@
-<div class="card-dashboard">
+<div class="card-dashboard mb-4">
     <div class="published-videos">
         <div class="container">
             <div class="row">

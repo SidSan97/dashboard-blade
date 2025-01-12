@@ -1,4 +1,4 @@
-<div class="card-dashboard mb-2">
+<div class="card-dashboard mb-4">
     <div class="container-fluid">
         <!--div class="row mb-2">
             <div class="d-flex justify-content-end">

@@ -1,4 +1,4 @@
-<div class="card-dashboard mb-2">
+<div class="card-dashboard mb-4">
     <div class="container-fluid">
         <div class="d-flex mb-2">
             <div class="logo">#</div>

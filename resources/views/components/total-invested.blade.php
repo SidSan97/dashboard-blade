@@ -1,4 +1,4 @@
-<div class="card-dashboard mt-2 p-0 mb-2">
+<div class="card-dashboard mt-2 p-0 mb-4">
     <div class="total-invested d-flex justify-content-center align-items-center">
         <span>TOTAL INVESTED:</span>
 

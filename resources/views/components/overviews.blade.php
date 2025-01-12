@@ -1,4 +1,4 @@
-<div class="card-dashboard mb-2">
+<div class="card-dashboard mb-4">
     <div class="container-fluid">
         <div class="mb-2 mb-2 d-flex justify-content-between" style="margin-left: -11px;">
             <div class="d-flex">
