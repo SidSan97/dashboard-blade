@@ -427,7 +427,20 @@ a.text-primary:hover {
 }
 
 @media(max-width: 575px) {
+    .card-header strong {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
 
+    .card-header a {
+        font-size: 14px;
+    }
 
+    .comments-container {
+        width: 100%;
+    }
 
+    .comment-text {
+        width: 100%;
+    }
 }

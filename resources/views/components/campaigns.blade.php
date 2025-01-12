@@ -14,7 +14,7 @@
         </div>
 
         <div class="row select-campaigns p-2">
-            <div class="col-md-3 col-sm-6 col-12 mb-2 p-0">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2 p-0">
                 <select class="form-select" aria-label="Default select example">
                     <option selected>All Countries</option>
                     <option value="1">Brazil</option>
@@ -26,7 +26,7 @@
                 </select>
             </div>
 
-            <div class="col-md-3 col-sm-6  col-12 mb-2 p-0">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2 p-0">
                 <select class="form-select" aria-label="Default select example">
                     <option selected>All Time Period</option>
                     <option value="1">Last 24 hours</option>
@@ -37,7 +37,7 @@
                 </select>
             </div>
 
-            <div class="col-md-3 col-sm-6  col-12 mb-2 p-0">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2 p-0">
                 <select class="form-select" aria-label="Default select example">
                     <option selected>All Social Media</option>
                     <option value="1">Instagram</option>
@@ -49,7 +49,7 @@
                 </select>
             </div>
 
-            <div class="col-md-3 col-sm-6  col-12 mb-2 p-0">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2 p-0">
                 <select class="form-select" aria-label="Default select example">
                     <option selected>All States</option>
                     <option value="1">Active</option>
@@ -58,7 +58,7 @@
                 </select>
             </div>
 
-            <div class="col-md-3 col-sm-6  col-12 mb-2 p-0">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-12 mb-2 p-0">
                 <select class="form-select" id="campaignSelect">
                     <option selected>Open this select menu</option>
                     <option value="1">How To Play Casino Online</option>
@@ -310,7 +310,7 @@
                         </div>
 
                         <!-- CONTEUDO QUE APARECE QUANDO CLICA NO CHAT COM NOTIFICAÇÃO -->
-                        <div class="d-flex justify-content-lg-end">
+                        <div class="d-flex justify-content-center justify-content-md-end">
                             <div class="comments-container" id="comments-container" style="display: none;">
                                 <div class="card comment-card shadow-sm border-0">
                                     <div class="card-header d-flex flex-sm-row flex-column align-items-center justify-content-between bg-white">
@@ -363,7 +363,7 @@
                                                 </div>
 
                                                 <div class="col-sm-10 col-12 main-content-comments">
-                                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center mb-2">
                                                         <strong class="m-0">@simonolivares.info</strong>
                                                         <small class="text-muted">September 12, 2024</small>
                                                     </div>
@@ -375,7 +375,7 @@
                                                         while incarcerated at Arkham State Hospital.
                                                     </p>
 
-                                                    <div class="d-flex justify-content-start align-items-center ms-3 actions-active">
+                                                    <div class="d-flex justify-content-sm-start justify-content-between align-items-center ms-3 actions-active">
                                                         <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.999913 7.99831H5.07697V17.5246H0.999913V7.99831ZM10.6877 7.9582H14.2176C14.466 7.9582 14.6947 8.0152 14.8907 8.12286C15.296 8.34487 15.5845 8.79592 15.6148 9.25718C15.6524 9.82855 15.2735 10.3296 14.9723 10.7845C15.3108 11.2 15.6338 11.5617 15.6264 12.1405C15.6186 12.6978 15.3104 13.1263 15.0068 13.5622C15.2182 13.9605 15.4272 14.3201 15.3519 14.7961C15.2738 15.2873 14.9452 15.5969 14.6177 15.9318C14.7943 16.3776 15.0029 16.7643 14.6711 17.197C14.504 17.4162 14.2802 17.5242 14.0055 17.5242H7.72276C7.50427 17.5242 7.3368 17.463 7.17144 17.3198L6.07653 16.3699V8.59221C7.92823 7.10571 8.59566 4.95811 8.69945 2.65817C8.69945 1.32261 9.95022 2.02417 10.2848 2.91712C10.7693 4.20871 10.7334 6.5192 10.6877 7.9582ZM16.6108 9.19525C16.5591 8.39729 16.0728 7.63241 15.3713 7.2482C15.0261 7.05856 14.6345 6.95864 14.2176 6.95864H11.7076C11.7097 5.72441 11.6447 3.70805 11.2186 2.56986C10.3467 0.241777 7.61756 0.51656 7.7027 2.63777C7.6246 4.30792 7.22773 5.96717 6.07653 7.23061V6.9991H0V18.5241H6.07688V17.6896L6.51984 18.0734C6.86077 18.3693 7.271 18.5241 7.72276 18.5241H14.0055C14.5899 18.5241 15.1088 18.2666 15.4642 17.8029C15.841 17.311 15.9293 16.7565 15.7671 16.163C16.0774 15.7837 16.2685 15.3787 16.3364 14.9523C16.405 14.5203 16.3473 14.0794 16.1608 13.6322C16.457 13.1411 16.6157 12.6474 16.6228 12.1524C16.6294 11.6644 16.4905 11.1898 16.1911 10.7314C16.4767 10.2339 16.6495 9.77965 16.6108 9.19525Z" fill="#838383"/>
                                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6108 9.19525C16.5591 8.39729 16.0728 7.63241 15.3713 7.2482C15.0261 7.05856 14.6345 6.95864 14.2176 6.95864H11.7076C11.7097 5.72441 11.6447 3.70805 11.2186 2.56986C10.3467 0.241777 7.61756 0.51656 7.7027 2.63777C7.6246 4.30792 7.22773 5.96717 6.07653 7.23061V6.9991H0V18.5241H6.07688V17.6896L6.51984 18.0734C6.86077 18.3693 7.271 18.5241 7.72276 18.5241H14.0055C14.5899 18.5241 15.1088 18.2666 15.4642 17.8029C15.841 17.311 15.9293 16.7565 15.7671 16.163C16.0774 15.7837 16.2685 15.3787 16.3364 14.9523C16.405 14.5203 16.3473 14.0794 16.1608 13.6322C16.457 13.1411 16.6157 12.6474 16.6228 12.1524C16.6294 11.6644 16.4905 11.1898 16.1911 10.7314C16.4767 10.2339 16.6495 9.77965 16.6108 9.19525Z" fill="#838383"/>
@@ -463,7 +463,7 @@
                                                 </div>
 
                                                 <div class="col-sm-10 col-12 main-content-comments">
-                                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                                    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center mb-2">
                                                         <strong class="m-0">@simonolivares.info</strong>
                                                         <small class="text-muted">September 12, 2024</small>
                                                     </div>
@@ -475,7 +475,7 @@
                                                         while incarcerated at Arkham State Hospital.
                                                     </p>
 
-                                                    <div class="d-flex justify-content-start align-items-center ms-3 actions-active">
+                                                    <div class="d-flex justify-content-sm-start justify-content-between align-items-center ms-3 actions-active">
                                                         <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.999913 7.99831H5.07697V17.5246H0.999913V7.99831ZM10.6877 7.9582H14.2176C14.466 7.9582 14.6947 8.0152 14.8907 8.12286C15.296 8.34487 15.5845 8.79592 15.6148 9.25718C15.6524 9.82855 15.2735 10.3296 14.9723 10.7845C15.3108 11.2 15.6338 11.5617 15.6264 12.1405C15.6186 12.6978 15.3104 13.1263 15.0068 13.5622C15.2182 13.9605 15.4272 14.3201 15.3519 14.7961C15.2738 15.2873 14.9452 15.5969 14.6177 15.9318C14.7943 16.3776 15.0029 16.7643 14.6711 17.197C14.504 17.4162 14.2802 17.5242 14.0055 17.5242H7.72276C7.50427 17.5242 7.3368 17.463 7.17144 17.3198L6.07653 16.3699V8.59221C7.92823 7.10571 8.59566 4.95811 8.69945 2.65817C8.69945 1.32261 9.95022 2.02417 10.2848 2.91712C10.7693 4.20871 10.7334 6.5192 10.6877 7.9582ZM16.6108 9.19525C16.5591 8.39729 16.0728 7.63241 15.3713 7.2482C15.0261 7.05856 14.6345 6.95864 14.2176 6.95864H11.7076C11.7097 5.72441 11.6447 3.70805 11.2186 2.56986C10.3467 0.241777 7.61756 0.51656 7.7027 2.63777C7.6246 4.30792 7.22773 5.96717 6.07653 7.23061V6.9991H0V18.5241H6.07688V17.6896L6.51984 18.0734C6.86077 18.3693 7.271 18.5241 7.72276 18.5241H14.0055C14.5899 18.5241 15.1088 18.2666 15.4642 17.8029C15.841 17.311 15.9293 16.7565 15.7671 16.163C16.0774 15.7837 16.2685 15.3787 16.3364 14.9523C16.405 14.5203 16.3473 14.0794 16.1608 13.6322C16.457 13.1411 16.6157 12.6474 16.6228 12.1524C16.6294 11.6644 16.4905 11.1898 16.1911 10.7314C16.4767 10.2339 16.6495 9.77965 16.6108 9.19525Z" fill="#838383"/>
                                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6108 9.19525C16.5591 8.39729 16.0728 7.63241 15.3713 7.2482C15.0261 7.05856 14.6345 6.95864 14.2176 6.95864H11.7076C11.7097 5.72441 11.6447 3.70805 11.2186 2.56986C10.3467 0.241777 7.61756 0.51656 7.7027 2.63777C7.6246 4.30792 7.22773 5.96717 6.07653 7.23061V6.9991H0V18.5241H6.07688V17.6896L6.51984 18.0734C6.86077 18.3693 7.271 18.5241 7.72276 18.5241H14.0055C14.5899 18.5241 15.1088 18.2666 15.4642 17.8029C15.841 17.311 15.9293 16.7565 15.7671 16.163C16.0774 15.7837 16.2685 15.3787 16.3364 14.9523C16.405 14.5203 16.3473 14.0794 16.1608 13.6322C16.457 13.1411 16.6157 12.6474 16.6228 12.1524C16.6294 11.6644 16.4905 11.1898 16.1911 10.7314C16.4767 10.2339 16.6495 9.77965 16.6108 9.19525Z" fill="#838383"/>

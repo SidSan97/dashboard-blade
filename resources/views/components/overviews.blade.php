@@ -14,7 +14,7 @@
         </div>
 
         <div class="row mb-2">
-            <div class="col-lg-8 col-md-6 d-flex align-items-center p-0 mb-2 overview-filters">
+            <div class="col-lg-8 col-md-6 d-flex align-items-center p-0 mb-md-4 overview-filters">
                 <div class="select-overview row">
                     <div class="d-flex justify-content-sm-center col-xl-4 col-md-6 mb-2">
                         <select class="form-select" aria-label="Default select example">

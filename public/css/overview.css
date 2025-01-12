@@ -1,6 +1,6 @@
 .overview-media-data {
     height: 59px;
-    margin-right: 4px !important;
+    /*margin-right: 4px !important;*/
     width: auto !important;
     background-color: white;
     border-radius: 10px;
@@ -84,16 +84,6 @@
     margin-top: -25px !important;
 }
 
-@media (max-width: 1199.99px) {
-    .select-overview select {
-        font-size: 15px;
-        height: 36px;
-        width: 100%;
-        border-radius: 10px;
-        margin-right: 3px;
-    }
-}
-
 @media(max-width: 991px) {
     .overview-filters {
         justify-content: center;
@@ -110,6 +100,20 @@
 
     .overview-visualize span {
         font-size: 13px;
+    }
+
+    .select-overview select {
+        font-size: 15px;
+        height: 36px;
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 3px;
+    }
+}
+
+@media (max-width: 767px) {
+    .overview-filters {
+        margin-bottom: 25px;
     }
 }
 

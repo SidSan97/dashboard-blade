@@ -93,18 +93,16 @@
     }
 }
 
-/*@media(max-width: 1199.99px) {
+@media (max-width: 991px) {
+    .tsu-list {
+        padding: 15px;
+    }
+
     .select-tsu select {
-        font-size: 15px;
+        font-size: 11px;
         height: 35px;
         width: 100%;
         border-radius: 10px;
         margin-right: 3px;
-    }
-}*/
-
-@media (max-width: 991px) {
-    .tsu-list {
-        padding: 15px;
     }
 }
