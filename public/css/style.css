@@ -46,6 +46,11 @@ body {
     line-height: 30px;
 }
 
+.user-name {
+    font-size: 13px;
+    line-height: 20px;
+}
+
 .pagination {
     justify-content: center;
     z-index: 1000;

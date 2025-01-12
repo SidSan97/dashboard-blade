@@ -96,7 +96,7 @@
 
                             <div class="d-flex flex-column align-items-start">
                                 <strong>Simon Olváres</strong>
-                                <span>@simonolivares.info</span>
+                                <span class="user-name">@simonolivares.info</span>
                             </div>
 
                             <i class="bi bi-circle-fill tsu-win-indicator"></i>
@@ -169,7 +169,7 @@
 
                             <div class="d-flex flex-column align-items-start">
                                 <strong>Hana Nakamura</strong>
-                                <span>@hanakamurainfo</span>
+                                <span class="user-name">@hanakamurainfo</span>
                             </div>
 
                             <i class="bi bi-circle-fill tsu-lose-indicator"></i>
@@ -237,7 +237,7 @@
 
                             <div class="d-flex flex-column align-items-start">
                                 <strong>Lara Gaming</strong>
-                                <span>@laragaming888</span>
+                                <span class="user-name">@laragaming888</span>
                             </div>
 
                             <i class="bi bi-circle-fill tsu-win-indicator"></i>
@@ -312,7 +312,7 @@
 
                             <div class="d-flex flex-column align-items-start">
                                 <strong>Simon Olváres</strong>
-                                <span>@simonolivares.info</span>
+                                <span class="user-name">@simonolivares.info</span>
                             </div>
 
                             <i class="bi bi-circle-fill tsu-win-indicator"></i>
@@ -385,7 +385,7 @@
 
                             <div class="d-flex flex-column align-items-start">
                                 <strong>Hana Nakamura</strong>
-                                <span>@hanakamurainfo</span>
+                                <span class="user-name">@hanakamurainfo</span>
                             </div>
 
                             <i class="bi bi-circle-fill tsu-lose-indicator"></i>
@@ -453,7 +453,7 @@
 
                             <div class="d-flex flex-column align-items-start">
                                 <strong>Lara Gaming</strong>
-                                <span>@laragaming888</span>
+                                <span class="user-name">@laragaming888</span>
                             </div>
 
                             <i class="bi bi-circle-fill tsu-win-indicator"></i>
