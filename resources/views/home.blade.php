@@ -33,6 +33,7 @@
                                     @include('components/campaigns')
 
                                     @include('components/published-videos')
+                                    <br><br>
                                 </div>
 
                                 <div class="col lg-6 mb-2">

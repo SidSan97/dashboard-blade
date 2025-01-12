@@ -1,7 +1,16 @@
 .tsu-status div span {
+    line-height: 30px;
     font-size: 16px;
-    font-weight: 800;
-    color: #666565;
+    font-weight: 600;
+    color: #7B7B7B;
+}
+
+.tsu-status-active {
+    color: #60BF41 !important;
+}
+
+.tsu-status-inactive {
+    color: #F51D38 !important;
 }
 
 .tsu-list {

@@ -1,45 +1,22 @@
 <div class="card-dashboard mb-4">
     <div class="container-fluid">
-        <!--div class="row mb-2">
-            <div class="d-flex justify-content-end">
-                <button class="three-button-menu">
-                    <i class="bi bi-three-dots"></i>
-                </button>
-            </div>
-
-            <div class="col-md-6 d-flex">
-                <div class="logo">#</div>
-                <span class="card-title">TOP SOCIAL USERS</span>
-            </div>
-
-            <div class="col-md-6 d-flex justify-content-around tsu-status">
-                <div>
-                    <span>ACTIVE: </span> <span class="text-success">1278</span>
-                </div>
-
-                <div>
-                    <span>INACTIVE: </span> <span class="text-danger">12</span>
-                </div>
-            </div>
-        </div-->
-
         <div class="row mb-2">
             <div class="col-sm-5 col-10 d-flex mb-2">
                 <div class="logo">#</div>
                 <span class="card-title">TOP SOCIAL USERS</span>
             </div>
 
-            <div class="col-5 d-none d-sm-flex justify-content-around tsu-status">
+            <div class="col-6 d-none d-sm-flex justify-content-around tsu-status">
                 <div>
-                    <span>ACTIVE: </span> <span class="text-success">1278</span>
+                    <span>ACTIVE: </span> <span class="tsu-status-active">1278</span>
                 </div>
 
                 <div>
-                    <span>INACTIVE: </span> <span class="text-danger">12</span>
+                    <span>INACTIVE: </span> <span class="tsu-status-inactive">12</span>
                 </div>
             </div>
 
-            <div class="col-2  d-flex justify-content-end">
+            <div class="col-1  d-flex justify-content-end">
                 <button class="three-button-menu">
                     <i class="bi bi-three-dots"></i>
                 </button>
