@@ -50,7 +50,7 @@
     font-weight: 700;
 }
 
-.sidebar-menu i {
+.sidebar-menu i, .sidebar-menu svg {
     margin-right: 10px;
 }
 

@@ -7,3 +7,13 @@ function openCommentsList(value) {
         commentsContainer.style.display = "none";
     }
 }
+
+function openVideoCampaingsList(value) {
+    let campaignsContainer = document.getElementById('video-campaigns-container');
+
+    if(value === true) {
+        campaignsContainer.style.display = "block";
+    } else {
+        campaignsContainer.style.display = "none";
+    }
+}

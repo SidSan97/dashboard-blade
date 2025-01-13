@@ -136,6 +136,11 @@
     background-color: #FFF6F6;
 }
 
+.egai-userName {
+    font-size: 13px;
+    margin-bottom: 0px !important;
+}
+
 .evolution-gaming-filters select {
     font-size: 9px;
     height: 25px;
@@ -247,9 +252,25 @@
     border-radius: 50%;
 }
 
+.user-avata2 {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.boosted {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FF9900;
+}
+
 .user-avatar2 {
     width: 41px;
     height: 41px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .img-user2 {
