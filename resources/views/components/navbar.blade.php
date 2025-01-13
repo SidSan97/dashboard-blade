@@ -18,7 +18,7 @@
             </ul>
 
             <div class="navbar-nav ms-auto">
-                <a class="nav-link" aria-current="page" href="#">
+                <a class="nav-link d-flex align-items-center" aria-current="page" href="#">
                     WEDNESDAY, <strong>SEPTEMBER</strong>
                     12, 2024
                 </a>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="d-flex align-items-center">
                     <a class="nav-link" href="#">Will Lennon</a>
-                    <img src="{{asset('img/man.jpg')}}" alt="Profile Picture" class="profile-picture">
+                    <img src="{{asset('img/will.png')}}" alt="Profile Picture" class="profile-picture">
                 </div>
             </div>
         </div>
