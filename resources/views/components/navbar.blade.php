@@ -19,7 +19,7 @@
 
             <div class="navbar-nav ms-auto">
                 <a class="nav-link d-flex align-items-center" aria-current="page" href="#">
-                    WEDNESDAY, <strong>SEPTEMBER</strong>
+                    WEDNESDAY, <strong class="ms-1 me-1">SEPTEMBER</strong>
                     12, 2024
                 </a>
                 <div class="dropdown">
