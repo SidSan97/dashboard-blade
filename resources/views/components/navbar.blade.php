@@ -22,10 +22,65 @@
                     WEDNESDAY, <strong>SEPTEMBER</strong>
                     12, 2024
                 </a>
-                <a class="nav-link notification" href="#">
-                    <i class="bi bi-bell-fill notification-bell"></i>
-                    <div class="notification-badge">+10</div>
-                </a>
+                <div class="dropdown">
+                    <a class="nav-link notification dropdown-toggle" id="notificationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-bell-fill notification-bell"></i>
+                        <div class="notification-badge">+10</div>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="notificationDropdown">
+                        <li class="dropdown-item alert-header">Alerts Center</li>
+                        <li class="dropdown-item alert-content">
+                            <div class="d-flex">
+                                <img src="{{asset('img/tsu-photo2.png')}}" alt="" srcset="">
+
+                                <div class="d-flex flex-column">
+                                    <span class="alert-date">September 12,2024</span>
+
+                                    <div class="alert-text-content">
+                                        <strong class="warning-notification">WARNING: </strong> Fail to post the Reel <strong>Joon (Stake) (Korea)</strong>
+                                         on instagram
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+                        </li>
+                        <li class="dropdown-item alert-content">
+                            <div class="d-flex">
+                                <img src="{{asset('img/instagram-logo.png')}}" alt="" srcset="">
+
+                                <div class="d-flex flex-column">
+                                    <span class="alert-date">September 12,2024</span>
+
+                                    <div class="alert-text-content">
+                                        <strong class="warning-notification">WARNING: </strong> Avatar <strong>Joon (Stake) (Korea)</strong>
+                                        no longer live on instagram
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+                        </li>
+                        <li class="dropdown-item alert-content">
+                            <div class="d-flex">
+                                <img src="{{asset('img/tsu-photo1.png')}}" alt="" srcset="">
+
+                                <div class="d-flex flex-column">
+                                    <span class="alert-date">September 12,2024</span>
+
+                                    <div class="alert-text-content">
+                                        <strong class="alert-notification">ALERT: </strong> There is a new comment on <strong>José (Stake) (Brazil)</strong>
+                                        Post. <strong class="alert-notification">Click to answer </strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+                        </li>
+
+                        <li class="dropdown-item text-center"><a href="#" class="show-all-alerts">Show All alerts</a></li>
+                    </ul>
+                </div>
                 <div class="d-flex align-items-center">
                     <a class="nav-link" href="#">Will Lennon</a>
                     <img src="{{asset('img/man.jpg')}}" alt="Profile Picture" class="profile-picture">
