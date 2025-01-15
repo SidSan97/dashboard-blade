@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="row tvi-checks-filters mb-2">
-                    <div class="col-xl-4 col-lg-12 col-sm-4 d-flex mb-2">
+                    <div class="col-xl-3 col-lg-12 col-sm-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
                         <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault1">
@@ -69,7 +69,6 @@
 
                     <div class="col-xl-4 col-lg-12 col-sm-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                        <i class="bi bi-circle-fill"></i>
                         <label class="form-check-label" for="flexCheckDefault3">
                             COMPARISON
                         </label>
@@ -131,14 +130,18 @@
                         <div class="col-lg-3 d-flex align-items-center mb-2">
                             <div class="d-flex flex-column">
                                 <span><strong>September </strong>12, 2024</span>
-                                <span><strong>December </strong>12, 2024</span>
+                                <span class="tvi-m2"><strong>December </strong>12, 2024</span>
                             </div>
                         </div>
 
                         <div class="col-lg-4 d-flex flex-column mb-2 total-videos-engajament">
                             <div class="d-flex justify-content-center align-items-center">
-                                <i class="bi bi-play-circle"></i>
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.87717 5.27138L6.65 5.13507V5.4V12.6V12.8649L6.87717 12.7286L12.8772 9.12862L13.0915 9L12.8772 8.87138L6.87717 5.27138ZM9 0.85C4.50362 0.85 0.85 4.50364 0.85 9C0.85 13.4964 4.50362 17.15 9 17.15C13.4964 17.15 17.15 13.4964 17.15 9C17.15 4.50364 13.4964 0.85 9 0.85ZM9 1.95C12.8983 1.95 16.05 5.10168 16.05 9C16.05 12.8983 12.8983 16.05 9 16.05C5.10166 16.05 1.95 12.8983 1.95 9C1.95 5.10168 5.10166 1.95 9 1.95Z" fill="#838383" stroke="#838383" stroke-width="0.3"/>
+                                </svg>
+
                                 <span class="tvi-quantity">98.400</span>
+
                                 <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.00049 -2.6229e-07L-4.04981e-07 8.73512L4.46099 8.73512L4.46099 18L7.53901 18L7.53901 8.73512L12 8.73512L6.00049 -2.6229e-07Z" fill="#60BF41"></path>
                                 </svg>

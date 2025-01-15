@@ -51,10 +51,14 @@
 
 .text-on {
     color: #60BF41;
+    line-height: 20px;
+    font-size: 18px;
 }
 
 .text-hold {
     color: #FF9900;
+    line-height: 20px;
+    font-size: 14px;
 }
 
 /*card*/
