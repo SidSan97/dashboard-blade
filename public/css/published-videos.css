@@ -66,16 +66,8 @@
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0px 4px 20px 0px #0000001A;
+    margin-bottom: 10px;
 }
-
-/*@media(min-width: 1400px) {
-    .published-video-filters select {
-        font-size: 12px;
-        height: 35px;
-        width: 100%;
-        border-radius: 10px;
-    }
-}*/
 
 @media(max-width: 991px) {
     .published-video-filters select {

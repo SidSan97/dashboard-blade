@@ -78,6 +78,12 @@ body {
     display: none !important;
 }
 
+@media(min-width: 1400px) {
+    .card-dashboard {
+        padding: 15px;
+    }
+}
+
 @media (max-width: 1199.99px) {
     .main-content {
         margin-left: 75px !important;
