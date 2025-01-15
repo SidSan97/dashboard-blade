@@ -69,7 +69,7 @@
                         </svg>
                     </div>
 
-                    <div><span class="overviews-info2">8.577 (38.35%)</span></div>
+                    <div><span class="overviews-info2">8.577 <span>(38.35%)</span></span></div>
                 </div>
 
                 <div class="d-flex flex-column align-items-center overview-visualize">
@@ -88,7 +88,7 @@
                         </svg>
                     </div>
 
-                    <div> <span class="overviews-info2">8.577 (38.35%)</span></div>
+                    <div> <span class="overviews-info2">8.577 <span>(38.35%)</span></span></div>
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@
 
                         <span>15</span>
 
-                        <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="overview-arrow" width="12" height="12" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.00049 -2.6229e-07L-4.04981e-07 8.73512L4.46099 8.73512L4.46099 18L7.53901 18L7.53901 8.73512L12 8.73512L6.00049 -2.6229e-07Z" fill="#60BF41"/>
                         </svg>
                     </div>
@@ -145,7 +145,7 @@
 
                         <span>15</span>
 
-                        <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="overview-arrow" width="12" height="12" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.00049 -2.6229e-07L-4.04981e-07 8.73512L4.46099 8.73512L4.46099 18L7.53901 18L7.53901 8.73512L12 8.73512L6.00049 -2.6229e-07Z" fill="#60BF41"/>
                         </svg>
                     </div>
@@ -174,7 +174,7 @@
 
                         <span>15</span>
 
-                        <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="overview-arrow" width="12" height="12" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.00049 -2.6229e-07L-4.04981e-07 8.73512L4.46099 8.73512L4.46099 18L7.53901 18L7.53901 8.73512L12 8.73512L6.00049 -2.6229e-07Z" fill="#60BF41"/>
                         </svg>
                     </div>
@@ -203,7 +203,7 @@
 
                         <span>15</span>
 
-                        <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="overview-arrow" width="12" height="12" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.00049 -2.6229e-07L-4.04981e-07 8.73512L4.46099 8.73512L4.46099 18L7.53901 18L7.53901 8.73512L12 8.73512L6.00049 -2.6229e-07Z" fill="#60BF41"/>
                         </svg>
                     </div>
@@ -232,7 +232,7 @@
 
                         <span>15</span>
 
-                        <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="overview-arrow" width="12" height="12" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.00049 -2.6229e-07L-4.04981e-07 8.73512L4.46099 8.73512L4.46099 18L7.53901 18L7.53901 8.73512L12 8.73512L6.00049 -2.6229e-07Z" fill="#60BF41"/>
                         </svg>
                     </div>
@@ -261,7 +261,7 @@
 
                         <span>15</span>
 
-                        <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="overview-arrow" width="12" height="12" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.00049 -2.6229e-07L-4.04981e-07 8.73512L4.46099 8.73512L4.46099 18L7.53901 18L7.53901 8.73512L12 8.73512L6.00049 -2.6229e-07Z" fill="#60BF41"/>
                         </svg>
                     </div>

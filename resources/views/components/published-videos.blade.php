@@ -71,8 +71,8 @@
                         <div class="pv-months container">
                             <div class="row">
                                 <div class="col-6">
-                                    <div class="d-flex justify-content-end"><strong>September </strong> <span class="m1">12, 2024</span></div>
-                                    <div class="d-flex justify-content-end dm-2"><strong>December </strong> <span>22, 2024</span></div>
+                                    <div class="d-flex justify-content-start"><strong>September </strong> <span class="m1">12, 2024</span></div>
+                                    <div class="d-flex justify-content-start dm-2"><strong>December </strong> <span>22, 2024</span></div>
                                 </div>
 
                                 <div class="col-6 d-flex justify-content-end align-items-center">

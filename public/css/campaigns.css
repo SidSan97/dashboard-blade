@@ -3,8 +3,8 @@
 }
 
 .select-campaigns select{
-    font-size: 9px;
-    height: 25px;
+    font-size: 11px;
+    height: 30px;
     width: 128px;
     border-radius: 7px;
     margin-right: 3px;
@@ -29,6 +29,7 @@
     background-color: white;
     border-radius: 10px;
     padding-top: 26px;
+    padding-bottom: 26px;
     box-shadow: 0px 4px 20px 0px #0000001A;
 }
 
@@ -48,14 +49,27 @@
     margin-left: 10px;
 }
 
+.text-on {
+    color: #60BF41;
+}
+
+.text-hold {
+    color: #FF9900;
+}
+
 /*card*/
-.flags {
-    padding-left: 3px;
+.bg-flags {
     background-color: #f4f4f4;
     border-radius: 7px;
+    padding: 5px;
+    display: flex;
+}
+
+.flags {
+    padding-left: 3px;
     display: flex;
     gap: 5px;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
 }
 
 .campaigns-months {
@@ -70,6 +84,10 @@
     padding: 5px !important;
     border-radius: 7px;
     background-color: #f4f4f4;
+}
+
+.user-campaigns-container .row {
+    padding: 0px 8px 0px 8px;
 }
 
 .campaigns-months div i {
@@ -142,8 +160,8 @@
 }
 
 .evolution-gaming-filters select {
-    font-size: 9px;
-    height: 25px;
+    font-size: 11px;
+    height: 30px;
     width: 120px;
     border-radius: 8px;
 }
@@ -204,10 +222,6 @@
 .evolution-gaming-additional-info div
 {
     font-size: 13px;
-}
-
-.icons-additional-info i {
-    font-size: 25px;
 }
 
 .social-media-status img {

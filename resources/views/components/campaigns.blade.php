@@ -83,7 +83,9 @@
                 <div class="d-flex d-lg-none mb-2 justify-content-between">
                     <span class="card-campaign-num">01</span>
                     <span class="card-campaign-title">Evolution Gaming Live Table Games and Game Shows</span>
-                    <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
+                    <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.02933 3.11036L11.5239 5.17366M1.26447 16.2083L2.53952 16.9607M4.93024 15.5984L1.18182 17.7273L1.43565 13.5351L9.28077 1.1354C9.32166 1.07137 9.38713 1.02554 9.46287 1.00793C9.53862 0.990308 9.61852 1.00233 9.68512 1.04136L12.678 2.80827C12.7443 2.84776 12.7917 2.91096 12.81 2.9841C12.8282 3.05724 12.8158 3.13439 12.7754 3.1987L4.93024 15.5984Z" stroke="#45BDDC" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </div>
 
                 <div class="row mb-2">
@@ -91,53 +93,57 @@
                         <div class="social-media-status d-flex flex-column align-items-center">
                             <span class="card-campaign-num d-none d-lg-block">01</span>
                             <img src="{{asset('img/instagram-logo.png')}}">
-                            <span class="text-success text-center fw-bold mt-2">ON</span>
+                            <span class="text-on text-center fw-bold mt-2">ON</span>
                         </div>
                     </div>
 
                     <div class="col-lg-11">
                         <div class="w-100 d-lg-flex d-none justify-content-between mb-2">
                             <span class="card-campaign-title">Evolution Gaming Live Table Games and Game Shows</span>
-                            <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
+                            <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.02933 3.11036L11.5239 5.17366M1.26447 16.2083L2.53952 16.9607M4.93024 15.5984L1.18182 17.7273L1.43565 13.5351L9.28077 1.1354C9.32166 1.07137 9.38713 1.02554 9.46287 1.00793C9.53862 0.990308 9.61852 1.00233 9.68512 1.04136L12.678 2.80827C12.7443 2.84776 12.7917 2.91096 12.81 2.9841C12.8282 3.05724 12.8158 3.13439 12.7754 3.1987L4.93024 15.5984Z" stroke="#45BDDC" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                         </div>
 
                         <div class="d-flex mb-2 flags-menu">
                             <div class="container-fluid p-0 d-flex mb-2">
-                                <div class="flags">
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/brasil.png')}}" alt="BR" class="rounded">
+                                <div class="bg-flags">
+                                    <div class="flags">
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/brasil')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/canada')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/coreia_sul')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/nova_zelandia')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/japao')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/espanha')
+                                        </div>
                                     </div>
 
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/canada.png')}}" alt="CA" class="rounded">
+                                    <div>
+                                        <button class="three-button-menu">
+                                            <i class="bi bi-three-dots"></i>
+                                        </button>
                                     </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/coreia-sul.png')}}" alt="KR" class="rounded">
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/new-zealand.png')}}" alt="NZ" class="rounded">
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/japao.png')}}" alt="JP" class="rounded">
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/espanha.png')}}" alt="ES" class="rounded">
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <button class="three-button-menu">
-                                        <i class="bi bi-three-dots"></i>
-                                    </button>
                                 </div>
                             </div>
 
                             <div class="p-0 d-flex">
-                                <div class="campaigns-months">
+                                <div class="campaigns-months d-flex flex-column justify-content-center">
                                     <div class="d-flex justify-content-center">
                                         <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.50726 4.5L0.800741 8.39711L0.800741 0.602885L9.50726 4.5Z" fill="#309E3A"/>
@@ -161,7 +167,10 @@
                             <div class="row mb-2">
                                 <div class="col-sm-11 col-9">
                                     <div class="evolution-gaming-users">
-                                        <i class="bi bi-person-fill"></i>
+                                        <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.00001 6.66216C8.83624 6.66216 10.3311 5.16731 10.3311 3.33108C10.3311 1.49485 8.83624 0 7.00001 0C5.16378 0 3.66893 1.49485 3.66893 3.33108C3.66893 5.16731 5.16378 6.66216 7.00001 6.66216Z" fill="#7B7B7B"/>
+                                            <path d="M7.00001 7.83789C3.54195 7.83789 0.729736 10.6501 0.729736 14.1082V14.5001H13.2703V14.1082C13.2703 10.6501 10.4581 7.83789 7.00001 7.83789Z" fill="#7B7B7B"/>
+                                        </svg>
                                         <strong>Joon</strong> (Stake) (Korea) - <strong>Yui</strong> (Stake) (Japan) -
                                         <strong>Juliana</strong> (Stake) (Brazil) - <strong>Seojun</strong> (Stake) (Korea) -
                                         <strong>Carmen</strong> (Stake) (Spain) ...
@@ -245,7 +254,9 @@
 
                                     <div class="stat-item card-campaigns-chat" onclick="openCommentsList(true)">
                                         <i class="bi bi-circle-fill notification-circle"></i>
-                                        <i class="bi bi-chat-left-text"></i> <strong>15</strong>
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.3567 8.46677C14.3567 8.57147 14.3148 8.67189 14.2402 8.74599C14.1656 8.82009 14.0645 8.86182 13.9589 8.86201H3.04206C2.9364 8.86201 2.83508 8.82039 2.76037 8.74631C2.68566 8.67222 2.64369 8.57174 2.64369 8.46696C2.64369 8.36219 2.68566 8.2617 2.76037 8.18762C2.83508 8.11353 2.9364 8.07191 3.04206 8.07191H13.9589C14.0645 8.07201 14.1658 8.11366 14.2405 8.18773C14.3152 8.26179 14.3572 8.36222 14.3573 8.46696L14.3567 8.46677ZM14.3567 6.0691C14.3567 6.17381 14.3149 6.27426 14.2403 6.34837C14.1657 6.42248 14.0645 6.4642 13.9589 6.46434H3.04206C2.93788 6.46209 2.83873 6.41948 2.76586 6.34562C2.69298 6.27176 2.65218 6.17253 2.65218 6.0692C2.65218 5.96586 2.69298 5.86664 2.76586 5.79278C2.83873 5.71892 2.93788 5.6763 3.04206 5.67405H13.9589C14.0645 5.67415 14.1658 5.71583 14.2405 5.78993C14.3152 5.86404 14.3572 5.96451 14.3573 6.06929L14.3567 6.0691ZM2.64444 3.67331C2.64442 3.62141 2.65471 3.57002 2.67471 3.52207C2.69472 3.47412 2.72406 3.43054 2.76106 3.39384C2.79805 3.35714 2.84197 3.32802 2.89032 3.30815C2.93866 3.28829 2.99048 3.27807 3.04281 3.27807H8.95333C9.00639 3.27692 9.05914 3.28629 9.1085 3.30564C9.15785 3.32498 9.20282 3.3539 9.24075 3.39071C9.27868 3.42752 9.30882 3.47146 9.32939 3.51997C9.34997 3.56849 9.36057 3.62058 9.36057 3.67321C9.36057 3.72584 9.34997 3.77794 9.32939 3.82645C9.30882 3.87496 9.27868 3.91891 9.24075 3.95572C9.20282 3.99252 9.15785 4.02144 9.1085 4.04079C9.05914 4.06013 9.00639 4.06951 8.95333 4.06836H3.04111C2.93575 4.06791 2.83486 4.0261 2.76052 3.95206C2.68618 3.87802 2.64444 3.77779 2.64444 3.67331ZM16.2031 11.0868V1.05366C16.203 0.983827 16.175 0.916876 16.1252 0.867477C16.0754 0.818077 16.0079 0.790256 15.9375 0.790107H1.0625C0.992078 0.790256 0.924585 0.818077 0.874807 0.867477C0.825028 0.916876 0.797022 0.983827 0.796922 1.05366V11.0868C0.797022 11.1566 0.825035 11.2235 0.874819 11.2729C0.924602 11.3223 0.992095 11.3501 1.0625 11.3502H3.10118C3.20685 11.3502 3.30819 11.3918 3.38293 11.4659C3.45767 11.5399 3.49968 11.6404 3.49973 11.7452V14.7985L7.8676 11.4331C7.93745 11.3792 8.02349 11.35 8.11202 11.3502H15.9375C16.0079 11.3501 16.0754 11.3223 16.1252 11.2729C16.175 11.2235 16.203 11.1566 16.2031 11.0868ZM15.9375 0H1.0625C0.7808 0.000297506 0.510723 0.111404 0.31153 0.30894C0.112338 0.506475 0.000300001 0.774306 0 1.05366V11.0868C0.000449815 11.3661 0.112548 11.6338 0.311719 11.8312C0.51089 12.0287 0.78088 12.1397 1.0625 12.1401H2.70281V15.6055C2.70298 15.6793 2.72397 15.7516 2.76342 15.8141C2.80287 15.8767 2.85919 15.9271 2.92602 15.9596C2.99284 15.9921 3.06751 16.0054 3.14156 15.998C3.21561 15.9906 3.28609 15.9628 3.34503 15.9177L8.24859 12.1401H15.9375C16.2191 12.1397 16.4891 12.0287 16.6883 11.8312C16.8875 11.6338 16.9995 11.3661 17 11.0868V1.05366C16.9998 0.774291 16.8877 0.506432 16.6885 0.308885C16.4893 0.111338 16.2192 0.000248001 15.9375 0Z" fill="#838383"></path>
+                                        </svg> <strong>15</strong>
                                     </div>
 
                                     <div class="stat-item">
@@ -265,7 +276,9 @@
                                     </div>
 
                                     <div class="stat-item">
-                                        <img src="{{asset('img/bolsa-dinheiro.png')}}">
+                                        <svg class="mb-1" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7806 3.8142H4.60423V4.85028H11.7806V3.8142ZM10.6669 5.33124L14.2385 10.0289C14.7544 10.7075 14.9959 11.4638 14.9992 12.2281C15.0094 14.8406 12.6259 16.9736 9.69681 16.9736H6.68721C3.75852 16.9736 1.37466 14.8406 1.38483 12.2281C1.38808 11.4638 1.6296 10.7075 2.14556 10.0289L5.71708 5.33124H4.32449L1.1856 9.46008C0.537894 10.3122 0.234169 11.2644 0.23051 12.2281C0.217905 15.4073 3.12383 18 6.68721 18H9.69681C13.2606 18 16.1657 15.4073 16.1535 12.2281C16.1498 11.264 15.8461 10.3115 15.1984 9.46008L12.0595 5.33124H10.6669ZM9.90864 9.71712C9.54962 9.44424 9.25809 9.2214 8.78929 9.09V8.42292H7.59472V9.07236C6.98646 9.24912 6.50343 9.60192 6.30054 10.1516C6.08098 10.7456 6.31111 11.3306 6.83927 11.7299C7.50731 12.2346 8.36806 12.0942 8.76978 12.3973C9.16011 12.6925 8.91656 13.0889 8.51606 13.2221C8.0375 13.3812 7.64961 13.1029 7.30401 12.8545L6.47497 13.6084C6.83439 13.8805 7.12511 14.1037 7.59472 14.2355V14.9026H8.78929V14.2528C9.39756 14.076 9.88059 13.7236 10.0835 13.1735C10.303 12.5795 10.0729 11.9945 9.54434 11.5952C8.87712 11.0916 8.01799 11.232 7.61424 10.9278C7.2292 10.6366 7.4577 10.2395 7.86795 10.1034C8.34692 9.94356 8.73481 10.2226 9.08001 10.4713L9.90864 9.71712ZM12.93 0H10.0237L8.20664 1.16388L6.38999 0H3.48976L4.97382 3.33288H6.21759L5.19054 1.02636H6.01755L8.20664 2.42856L10.3966 1.02636H11.2187L10.1721 3.33288H11.4179L12.93 0Z" fill="#838383"></path>
+                                        </svg>
                                         <span class="price profit"> $4500,00 </span>
                                     </div>
                                 </div>
@@ -308,7 +321,9 @@
                                 </div>
 
                                 <div class="col-lg-3 d-flex justify-content-around align-items-end icons-additional-info">
-                                    <i class="bi bi-lightning-charge-fill text-warning"></i>
+                                    <svg width="18" height="26" viewBox="0 0 18 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.9218 0L10.1248 8.66682H18L3.37494 26L8.29705 14.0832H0L13.9218 0Z" fill="#FF9900"/>
+                                    </svg>
 
                                     <img src="{{asset('img/graph.png')}}" alt="">
                                 </div>
@@ -591,7 +606,9 @@
                                                     @include('components/svg_flags/japao')
 
                                                     <div class="mb-2">
-                                                        <img src="{{asset('img/bolsa-dinheiro.png')}}" width="17px">
+                                                        <svg class="mb-1" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7806 3.8142H4.60423V4.85028H11.7806V3.8142ZM10.6669 5.33124L14.2385 10.0289C14.7544 10.7075 14.9959 11.4638 14.9992 12.2281C15.0094 14.8406 12.6259 16.9736 9.69681 16.9736H6.68721C3.75852 16.9736 1.37466 14.8406 1.38483 12.2281C1.38808 11.4638 1.6296 10.7075 2.14556 10.0289L5.71708 5.33124H4.32449L1.1856 9.46008C0.537894 10.3122 0.234169 11.2644 0.23051 12.2281C0.217905 15.4073 3.12383 18 6.68721 18H9.69681C13.2606 18 16.1657 15.4073 16.1535 12.2281C16.1498 11.264 15.8461 10.3115 15.1984 9.46008L12.0595 5.33124H10.6669ZM9.90864 9.71712C9.54962 9.44424 9.25809 9.2214 8.78929 9.09V8.42292H7.59472V9.07236C6.98646 9.24912 6.50343 9.60192 6.30054 10.1516C6.08098 10.7456 6.31111 11.3306 6.83927 11.7299C7.50731 12.2346 8.36806 12.0942 8.76978 12.3973C9.16011 12.6925 8.91656 13.0889 8.51606 13.2221C8.0375 13.3812 7.64961 13.1029 7.30401 12.8545L6.47497 13.6084C6.83439 13.8805 7.12511 14.1037 7.59472 14.2355V14.9026H8.78929V14.2528C9.39756 14.076 9.88059 13.7236 10.0835 13.1735C10.303 12.5795 10.0729 11.9945 9.54434 11.5952C8.87712 11.0916 8.01799 11.232 7.61424 10.9278C7.2292 10.6366 7.4577 10.2395 7.86795 10.1034C8.34692 9.94356 8.73481 10.2226 9.08001 10.4713L9.90864 9.71712ZM12.93 0H10.0237L8.20664 1.16388L6.38999 0H3.48976L4.97382 3.33288H6.21759L5.19054 1.02636H6.01755L8.20664 2.42856L10.3966 1.02636H11.2187L10.1721 3.33288H11.4179L12.93 0Z" fill="#838383"></path>
+                                                        </svg>
                                                         <span class="price profit"> $4500,00 </span>
                                                     </div>
                                                 </div>
@@ -614,7 +631,9 @@
 
                                                     <div class="stat-item card-campaigns-chat" onclick="openCommentsList(true)">
                                                         <i class="bi bi-circle-fill notification-circle"></i>
-                                                        <i class="bi bi-chat-left-text"></i> <strong>15</strong>
+                                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.3567 8.46677C14.3567 8.57147 14.3148 8.67189 14.2402 8.74599C14.1656 8.82009 14.0645 8.86182 13.9589 8.86201H3.04206C2.9364 8.86201 2.83508 8.82039 2.76037 8.74631C2.68566 8.67222 2.64369 8.57174 2.64369 8.46696C2.64369 8.36219 2.68566 8.2617 2.76037 8.18762C2.83508 8.11353 2.9364 8.07191 3.04206 8.07191H13.9589C14.0645 8.07201 14.1658 8.11366 14.2405 8.18773C14.3152 8.26179 14.3572 8.36222 14.3573 8.46696L14.3567 8.46677ZM14.3567 6.0691C14.3567 6.17381 14.3149 6.27426 14.2403 6.34837C14.1657 6.42248 14.0645 6.4642 13.9589 6.46434H3.04206C2.93788 6.46209 2.83873 6.41948 2.76586 6.34562C2.69298 6.27176 2.65218 6.17253 2.65218 6.0692C2.65218 5.96586 2.69298 5.86664 2.76586 5.79278C2.83873 5.71892 2.93788 5.6763 3.04206 5.67405H13.9589C14.0645 5.67415 14.1658 5.71583 14.2405 5.78993C14.3152 5.86404 14.3572 5.96451 14.3573 6.06929L14.3567 6.0691ZM2.64444 3.67331C2.64442 3.62141 2.65471 3.57002 2.67471 3.52207C2.69472 3.47412 2.72406 3.43054 2.76106 3.39384C2.79805 3.35714 2.84197 3.32802 2.89032 3.30815C2.93866 3.28829 2.99048 3.27807 3.04281 3.27807H8.95333C9.00639 3.27692 9.05914 3.28629 9.1085 3.30564C9.15785 3.32498 9.20282 3.3539 9.24075 3.39071C9.27868 3.42752 9.30882 3.47146 9.32939 3.51997C9.34997 3.56849 9.36057 3.62058 9.36057 3.67321C9.36057 3.72584 9.34997 3.77794 9.32939 3.82645C9.30882 3.87496 9.27868 3.91891 9.24075 3.95572C9.20282 3.99252 9.15785 4.02144 9.1085 4.04079C9.05914 4.06013 9.00639 4.06951 8.95333 4.06836H3.04111C2.93575 4.06791 2.83486 4.0261 2.76052 3.95206C2.68618 3.87802 2.64444 3.77779 2.64444 3.67331ZM16.2031 11.0868V1.05366C16.203 0.983827 16.175 0.916876 16.1252 0.867477C16.0754 0.818077 16.0079 0.790256 15.9375 0.790107H1.0625C0.992078 0.790256 0.924585 0.818077 0.874807 0.867477C0.825028 0.916876 0.797022 0.983827 0.796922 1.05366V11.0868C0.797022 11.1566 0.825035 11.2235 0.874819 11.2729C0.924602 11.3223 0.992095 11.3501 1.0625 11.3502H3.10118C3.20685 11.3502 3.30819 11.3918 3.38293 11.4659C3.45767 11.5399 3.49968 11.6404 3.49973 11.7452V14.7985L7.8676 11.4331C7.93745 11.3792 8.02349 11.35 8.11202 11.3502H15.9375C16.0079 11.3501 16.0754 11.3223 16.1252 11.2729C16.175 11.2235 16.203 11.1566 16.2031 11.0868ZM15.9375 0H1.0625C0.7808 0.000297506 0.510723 0.111404 0.31153 0.30894C0.112338 0.506475 0.000300001 0.774306 0 1.05366V11.0868C0.000449815 11.3661 0.112548 11.6338 0.311719 11.8312C0.51089 12.0287 0.78088 12.1397 1.0625 12.1401H2.70281V15.6055C2.70298 15.6793 2.72397 15.7516 2.76342 15.8141C2.80287 15.8767 2.85919 15.9271 2.92602 15.9596C2.99284 15.9921 3.06751 16.0054 3.14156 15.998C3.21561 15.9906 3.28609 15.9628 3.34503 15.9177L8.24859 12.1401H15.9375C16.2191 12.1397 16.4891 12.0287 16.6883 11.8312C16.8875 11.6338 16.9995 11.3661 17 11.0868V1.05366C16.9998 0.774291 16.8877 0.506432 16.6885 0.308885C16.4893 0.111338 16.2192 0.000248001 15.9375 0Z" fill="#838383"></path>
+                                                        </svg> <strong>15</strong>
                                                     </div>
 
                                                     <div class="stat-item">
@@ -703,7 +722,9 @@
                                                     @include('components/svg_flags/brasil')
 
                                                     <div class="mb-2">
-                                                        <img src="{{asset('img/bolsa-dinheiro.png')}}" width="17px">
+                                                        <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7806 3.8142H4.60423V4.85028H11.7806V3.8142ZM10.6669 5.33124L14.2385 10.0289C14.7544 10.7075 14.9959 11.4638 14.9992 12.2281C15.0094 14.8406 12.6259 16.9736 9.69681 16.9736H6.68721C3.75852 16.9736 1.37466 14.8406 1.38483 12.2281C1.38808 11.4638 1.6296 10.7075 2.14556 10.0289L5.71708 5.33124H4.32449L1.1856 9.46008C0.537894 10.3122 0.234169 11.2644 0.23051 12.2281C0.217905 15.4073 3.12383 18 6.68721 18H9.69681C13.2606 18 16.1657 15.4073 16.1535 12.2281C16.1498 11.264 15.8461 10.3115 15.1984 9.46008L12.0595 5.33124H10.6669ZM9.90864 9.71712C9.54962 9.44424 9.25809 9.2214 8.78929 9.09V8.42292H7.59472V9.07236C6.98646 9.24912 6.50343 9.60192 6.30054 10.1516C6.08098 10.7456 6.31111 11.3306 6.83927 11.7299C7.50731 12.2346 8.36806 12.0942 8.76978 12.3973C9.16011 12.6925 8.91656 13.0889 8.51606 13.2221C8.0375 13.3812 7.64961 13.1029 7.30401 12.8545L6.47497 13.6084C6.83439 13.8805 7.12511 14.1037 7.59472 14.2355V14.9026H8.78929V14.2528C9.39756 14.076 9.88059 13.7236 10.0835 13.1735C10.303 12.5795 10.0729 11.9945 9.54434 11.5952C8.87712 11.0916 8.01799 11.232 7.61424 10.9278C7.2292 10.6366 7.4577 10.2395 7.86795 10.1034C8.34692 9.94356 8.73481 10.2226 9.08001 10.4713L9.90864 9.71712ZM12.93 0H10.0237L8.20664 1.16388L6.38999 0H3.48976L4.97382 3.33288H6.21759L5.19054 1.02636H6.01755L8.20664 2.42856L10.3966 1.02636H11.2187L10.1721 3.33288H11.4179L12.93 0Z" fill="#838383"></path>
+                                                        </svg>
                                                         <span class="price unchanged"> $00,00 </span>
                                                     </div>
                                                 </div>
@@ -726,7 +747,9 @@
 
                                                     <div class="stat-item card-campaigns-chat" onclick="openCommentsList(true)">
                                                         <i class="bi bi-circle-fill notification-circle"></i>
-                                                        <i class="bi bi-chat-left-text"></i> <strong>15</strong>
+                                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.3567 8.46677C14.3567 8.57147 14.3148 8.67189 14.2402 8.74599C14.1656 8.82009 14.0645 8.86182 13.9589 8.86201H3.04206C2.9364 8.86201 2.83508 8.82039 2.76037 8.74631C2.68566 8.67222 2.64369 8.57174 2.64369 8.46696C2.64369 8.36219 2.68566 8.2617 2.76037 8.18762C2.83508 8.11353 2.9364 8.07191 3.04206 8.07191H13.9589C14.0645 8.07201 14.1658 8.11366 14.2405 8.18773C14.3152 8.26179 14.3572 8.36222 14.3573 8.46696L14.3567 8.46677ZM14.3567 6.0691C14.3567 6.17381 14.3149 6.27426 14.2403 6.34837C14.1657 6.42248 14.0645 6.4642 13.9589 6.46434H3.04206C2.93788 6.46209 2.83873 6.41948 2.76586 6.34562C2.69298 6.27176 2.65218 6.17253 2.65218 6.0692C2.65218 5.96586 2.69298 5.86664 2.76586 5.79278C2.83873 5.71892 2.93788 5.6763 3.04206 5.67405H13.9589C14.0645 5.67415 14.1658 5.71583 14.2405 5.78993C14.3152 5.86404 14.3572 5.96451 14.3573 6.06929L14.3567 6.0691ZM2.64444 3.67331C2.64442 3.62141 2.65471 3.57002 2.67471 3.52207C2.69472 3.47412 2.72406 3.43054 2.76106 3.39384C2.79805 3.35714 2.84197 3.32802 2.89032 3.30815C2.93866 3.28829 2.99048 3.27807 3.04281 3.27807H8.95333C9.00639 3.27692 9.05914 3.28629 9.1085 3.30564C9.15785 3.32498 9.20282 3.3539 9.24075 3.39071C9.27868 3.42752 9.30882 3.47146 9.32939 3.51997C9.34997 3.56849 9.36057 3.62058 9.36057 3.67321C9.36057 3.72584 9.34997 3.77794 9.32939 3.82645C9.30882 3.87496 9.27868 3.91891 9.24075 3.95572C9.20282 3.99252 9.15785 4.02144 9.1085 4.04079C9.05914 4.06013 9.00639 4.06951 8.95333 4.06836H3.04111C2.93575 4.06791 2.83486 4.0261 2.76052 3.95206C2.68618 3.87802 2.64444 3.77779 2.64444 3.67331ZM16.2031 11.0868V1.05366C16.203 0.983827 16.175 0.916876 16.1252 0.867477C16.0754 0.818077 16.0079 0.790256 15.9375 0.790107H1.0625C0.992078 0.790256 0.924585 0.818077 0.874807 0.867477C0.825028 0.916876 0.797022 0.983827 0.796922 1.05366V11.0868C0.797022 11.1566 0.825035 11.2235 0.874819 11.2729C0.924602 11.3223 0.992095 11.3501 1.0625 11.3502H3.10118C3.20685 11.3502 3.30819 11.3918 3.38293 11.4659C3.45767 11.5399 3.49968 11.6404 3.49973 11.7452V14.7985L7.8676 11.4331C7.93745 11.3792 8.02349 11.35 8.11202 11.3502H15.9375C16.0079 11.3501 16.0754 11.3223 16.1252 11.2729C16.175 11.2235 16.203 11.1566 16.2031 11.0868ZM15.9375 0H1.0625C0.7808 0.000297506 0.510723 0.111404 0.31153 0.30894C0.112338 0.506475 0.000300001 0.774306 0 1.05366V11.0868C0.000449815 11.3661 0.112548 11.6338 0.311719 11.8312C0.51089 12.0287 0.78088 12.1397 1.0625 12.1401H2.70281V15.6055C2.70298 15.6793 2.72397 15.7516 2.76342 15.8141C2.80287 15.8767 2.85919 15.9271 2.92602 15.9596C2.99284 15.9921 3.06751 16.0054 3.14156 15.998C3.21561 15.9906 3.28609 15.9628 3.34503 15.9177L8.24859 12.1401H15.9375C16.2191 12.1397 16.4891 12.0287 16.6883 11.8312C16.8875 11.6338 16.9995 11.3661 17 11.0868V1.05366C16.9998 0.774291 16.8877 0.506432 16.6885 0.308885C16.4893 0.111338 16.2192 0.000248001 15.9375 0Z" fill="#838383"></path>
+                                                        </svg> <strong>15</strong>
                                                     </div>
 
                                                     <div class="stat-item">
@@ -808,7 +831,9 @@
                 <div class="d-flex d-lg-none mb-2 justify-content-between">
                     <span class="card-campaign-num">02</span>
                     <span class="card-campaign-title">Stake Originals</span>
-                    <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
+                    <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.02933 3.11036L11.5239 5.17366M1.26447 16.2083L2.53952 16.9607M4.93024 15.5984L1.18182 17.7273L1.43565 13.5351L9.28077 1.1354C9.32166 1.07137 9.38713 1.02554 9.46287 1.00793C9.53862 0.990308 9.61852 1.00233 9.68512 1.04136L12.678 2.80827C12.7443 2.84776 12.7917 2.91096 12.81 2.9841C12.8282 3.05724 12.8158 3.13439 12.7754 3.1987L4.93024 15.5984Z" stroke="#45BDDC" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </div>
 
                 <div class="row mb-2">
@@ -816,48 +841,52 @@
                         <div class="social-media-status d-flex flex-column align-items-center">
                             <span class="card-campaign-num d-lg-flex d-none">02</span>
                             <img src="{{asset('img/facebook-logo.png')}}">
-                            <span class="text-success text-center fw-bold mt-2">ON</span>
+                            <span class="text-on text-center fw-bold mt-2">ON</span>
                         </div>
                     </div>
 
                     <div class="col-lg-11">
                         <div class="w-100 d-flex justify-content-between mb-2 d-lg-flex d-none">
                             <span class="card-campaign-title">Stake Originals</span>
-                            <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
+                            <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.02933 3.11036L11.5239 5.17366M1.26447 16.2083L2.53952 16.9607M4.93024 15.5984L1.18182 17.7273L1.43565 13.5351L9.28077 1.1354C9.32166 1.07137 9.38713 1.02554 9.46287 1.00793C9.53862 0.990308 9.61852 1.00233 9.68512 1.04136L12.678 2.80827C12.7443 2.84776 12.7917 2.91096 12.81 2.9841C12.8282 3.05724 12.8158 3.13439 12.7754 3.1987L4.93024 15.5984Z" stroke="#45BDDC" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                         </div>
 
                         <div class="d-flex mb-2 flags-menu">
                             <div class="container-fluid p-0 d-flex">
-                                <div class="flags">
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/brasil.png')}}" alt="BR" class="rounded">
+                                <div class="bg-flags">
+                                    <div class="flags">
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/brasil')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/canada')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/coreia_sul')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/nova_zelandia')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/japao')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/espanha')
+                                        </div>
                                     </div>
 
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/canada.png')}}" alt="CA" class="rounded">
+                                    <div>
+                                        <button class="three-button-menu">
+                                            <i class="bi bi-three-dots"></i>
+                                        </button>
                                     </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/coreia-sul.png')}}" alt="KR" class="rounded">
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/new-zealand.png')}}" alt="NZ" class="rounded">
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/japao.png')}}" alt="JP" class="rounded">
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/espanha.png')}}" alt="ES" class="rounded">
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <button class="three-button-menu">
-                                        <i class="bi bi-three-dots"></i>
-                                    </button>
                                 </div>
                             </div>
 
@@ -886,7 +915,10 @@
                             <div class="row mb-2">
                                 <div class="col-sm-11 col-9">
                                     <div class="evolution-gaming-users">
-                                        <i class="bi bi-person-fill"></i>
+                                        <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.00001 6.66216C8.83624 6.66216 10.3311 5.16731 10.3311 3.33108C10.3311 1.49485 8.83624 0 7.00001 0C5.16378 0 3.66893 1.49485 3.66893 3.33108C3.66893 5.16731 5.16378 6.66216 7.00001 6.66216Z" fill="#7B7B7B"/>
+                                            <path d="M7.00001 7.83789C3.54195 7.83789 0.729736 10.6501 0.729736 14.1082V14.5001H13.2703V14.1082C13.2703 10.6501 10.4581 7.83789 7.00001 7.83789Z" fill="#7B7B7B"/>
+                                        </svg>
                                         <strong>Joon</strong> (Stake) (Korea) - <strong>Yui</strong> (Stake) (Japan) -
                                         <strong>Juliana</strong> (Stake) (Brazil) - <strong>Seojun</strong> (Stake) (Korea) -
                                         <strong>Carmen</strong> (Stake) (Spain) ...
@@ -989,7 +1021,9 @@
                                     </div>
 
                                     <div class="stat-item">
-                                        <img src="{{asset('img/bolsa-dinheiro.png')}}">
+                                        <svg class="mb-1" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7806 3.8142H4.60423V4.85028H11.7806V3.8142ZM10.6669 5.33124L14.2385 10.0289C14.7544 10.7075 14.9959 11.4638 14.9992 12.2281C15.0094 14.8406 12.6259 16.9736 9.69681 16.9736H6.68721C3.75852 16.9736 1.37466 14.8406 1.38483 12.2281C1.38808 11.4638 1.6296 10.7075 2.14556 10.0289L5.71708 5.33124H4.32449L1.1856 9.46008C0.537894 10.3122 0.234169 11.2644 0.23051 12.2281C0.217905 15.4073 3.12383 18 6.68721 18H9.69681C13.2606 18 16.1657 15.4073 16.1535 12.2281C16.1498 11.264 15.8461 10.3115 15.1984 9.46008L12.0595 5.33124H10.6669ZM9.90864 9.71712C9.54962 9.44424 9.25809 9.2214 8.78929 9.09V8.42292H7.59472V9.07236C6.98646 9.24912 6.50343 9.60192 6.30054 10.1516C6.08098 10.7456 6.31111 11.3306 6.83927 11.7299C7.50731 12.2346 8.36806 12.0942 8.76978 12.3973C9.16011 12.6925 8.91656 13.0889 8.51606 13.2221C8.0375 13.3812 7.64961 13.1029 7.30401 12.8545L6.47497 13.6084C6.83439 13.8805 7.12511 14.1037 7.59472 14.2355V14.9026H8.78929V14.2528C9.39756 14.076 9.88059 13.7236 10.0835 13.1735C10.303 12.5795 10.0729 11.9945 9.54434 11.5952C8.87712 11.0916 8.01799 11.232 7.61424 10.9278C7.2292 10.6366 7.4577 10.2395 7.86795 10.1034C8.34692 9.94356 8.73481 10.2226 9.08001 10.4713L9.90864 9.71712ZM12.93 0H10.0237L8.20664 1.16388L6.38999 0H3.48976L4.97382 3.33288H6.21759L5.19054 1.02636H6.01755L8.20664 2.42856L10.3966 1.02636H11.2187L10.1721 3.33288H11.4179L12.93 0Z" fill="#838383"></path>
+                                        </svg>
                                         <span class="price unchanged"> $00,00 </span>
                                     </div>
                                 </div>
@@ -1046,7 +1080,9 @@
                 <div class="d-flex d-lg-none mb-2 justify-content-between">
                     <span class="card-campaign-num">03</span>
                     <span class="card-campaign-title">Evolution Gaming Live Table Games and Game Shows</span>
-                    <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
+                    <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.02933 3.11036L11.5239 5.17366M1.26447 16.2083L2.53952 16.9607M4.93024 15.5984L1.18182 17.7273L1.43565 13.5351L9.28077 1.1354C9.32166 1.07137 9.38713 1.02554 9.46287 1.00793C9.53862 0.990308 9.61852 1.00233 9.68512 1.04136L12.678 2.80827C12.7443 2.84776 12.7917 2.91096 12.81 2.9841C12.8282 3.05724 12.8158 3.13439 12.7754 3.1987L4.93024 15.5984Z" stroke="#45BDDC" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </div>
 
                 <div class="row mb-2">
@@ -1054,48 +1090,52 @@
                         <div class="social-media-status d-flex flex-column align-items-center">
                             <span class="card-campaign-num d-lg-flex d-none">03</span>
                             <img src="{{asset('img/tiktok-logo.png')}}">
-                            <span class="text-warning text-center fw-bold mt-2">HOLD</span>
+                            <span class="text-hold text-center fw-bold mt-2">HOLD</span>
                         </div>
                     </div>
 
                     <div class="col-lg-11">
                         <div class="w-100 d-flex justify-content-between mb-2 d-lg-flex d-none">
                             <span class="card-campaign-title">How To Play Casino Online</span>
-                            <i class="bi bi-pencil text-info card-campaign-button-edit"></i>
+                            <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.02933 3.11036L11.5239 5.17366M1.26447 16.2083L2.53952 16.9607M4.93024 15.5984L1.18182 17.7273L1.43565 13.5351L9.28077 1.1354C9.32166 1.07137 9.38713 1.02554 9.46287 1.00793C9.53862 0.990308 9.61852 1.00233 9.68512 1.04136L12.678 2.80827C12.7443 2.84776 12.7917 2.91096 12.81 2.9841C12.8282 3.05724 12.8158 3.13439 12.7754 3.1987L4.93024 15.5984Z" stroke="#45BDDC" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                         </div>
 
                         <div class="d-flex mb-2 flags-menu">
                             <div class="container-fluid p-0 d-flex">
-                                <div class="flags">
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/brasil.png')}}" alt="BR" class="rounded">
+                            <div class="bg-flags">
+                            <div class="flags">
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/brasil')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/canada')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/coreia_sul')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/nova_zelandia')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/japao')
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            @include('components/svg_flags/espanha')
+                                        </div>
                                     </div>
 
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/canada.png')}}" alt="CA" class="rounded">
+                                    <div>
+                                        <button class="three-button-menu">
+                                            <i class="bi bi-three-dots"></i>
+                                        </button>
                                     </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/coreia-sul.png')}}" alt="KR" class="rounded">
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/new-zealand.png')}}" alt="NZ" class="rounded">
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/japao.png')}}" alt="JP" class="rounded">
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{asset('img/flags/espanha.png')}}" alt="ES" class="rounded">
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <button class="three-button-menu">
-                                        <i class="bi bi-three-dots"></i>
-                                    </button>
                                 </div>
                             </div>
 
@@ -1124,7 +1164,10 @@
                             <div class="row mb-2">
                                 <div class="col-sm-11 col-9">
                                     <div class="evolution-gaming-users">
-                                        <i class="bi bi-person-fill"></i>
+                                        <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.00001 6.66216C8.83624 6.66216 10.3311 5.16731 10.3311 3.33108C10.3311 1.49485 8.83624 0 7.00001 0C5.16378 0 3.66893 1.49485 3.66893 3.33108C3.66893 5.16731 5.16378 6.66216 7.00001 6.66216Z" fill="#7B7B7B"/>
+                                            <path d="M7.00001 7.83789C3.54195 7.83789 0.729736 10.6501 0.729736 14.1082V14.5001H13.2703V14.1082C13.2703 10.6501 10.4581 7.83789 7.00001 7.83789Z" fill="#7B7B7B"/>
+                                        </svg>
                                         <strong>Joon</strong> (Stake) (Korea) - <strong>Yui</strong> (Stake) (Japan) -
                                         <strong>Juliana</strong> (Stake) (Brazil) - <strong>Seojun</strong> (Stake) (Korea) -
                                         <strong>Carmen</strong> (Stake) (Spain) ...
@@ -1227,7 +1270,9 @@
                                     </div>
 
                                     <div class="stat-item">
-                                        <img src="{{asset('img/bolsa-dinheiro.png')}}">
+                                        <svg class="mb-1" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7806 3.8142H4.60423V4.85028H11.7806V3.8142ZM10.6669 5.33124L14.2385 10.0289C14.7544 10.7075 14.9959 11.4638 14.9992 12.2281C15.0094 14.8406 12.6259 16.9736 9.69681 16.9736H6.68721C3.75852 16.9736 1.37466 14.8406 1.38483 12.2281C1.38808 11.4638 1.6296 10.7075 2.14556 10.0289L5.71708 5.33124H4.32449L1.1856 9.46008C0.537894 10.3122 0.234169 11.2644 0.23051 12.2281C0.217905 15.4073 3.12383 18 6.68721 18H9.69681C13.2606 18 16.1657 15.4073 16.1535 12.2281C16.1498 11.264 15.8461 10.3115 15.1984 9.46008L12.0595 5.33124H10.6669ZM9.90864 9.71712C9.54962 9.44424 9.25809 9.2214 8.78929 9.09V8.42292H7.59472V9.07236C6.98646 9.24912 6.50343 9.60192 6.30054 10.1516C6.08098 10.7456 6.31111 11.3306 6.83927 11.7299C7.50731 12.2346 8.36806 12.0942 8.76978 12.3973C9.16011 12.6925 8.91656 13.0889 8.51606 13.2221C8.0375 13.3812 7.64961 13.1029 7.30401 12.8545L6.47497 13.6084C6.83439 13.8805 7.12511 14.1037 7.59472 14.2355V14.9026H8.78929V14.2528C9.39756 14.076 9.88059 13.7236 10.0835 13.1735C10.303 12.5795 10.0729 11.9945 9.54434 11.5952C8.87712 11.0916 8.01799 11.232 7.61424 10.9278C7.2292 10.6366 7.4577 10.2395 7.86795 10.1034C8.34692 9.94356 8.73481 10.2226 9.08001 10.4713L9.90864 9.71712ZM12.93 0H10.0237L8.20664 1.16388L6.38999 0H3.48976L4.97382 3.33288H6.21759L5.19054 1.02636H6.01755L8.20664 2.42856L10.3966 1.02636H11.2187L10.1721 3.33288H11.4179L12.93 0Z" fill="#838383"></path>
+                                        </svg>
                                         <span class="price prejudice"> $4500,00 </span>
                                     </div>
                                 </div>
@@ -1270,7 +1315,9 @@
                                 </div>
 
                                 <div class="col-lg-3 d-flex justify-content-around align-items-end icons-additional-info">
-                                    <i class="bi bi-lightning-charge-fill text-warning"></i>
+                                    <svg width="18" height="26" viewBox="0 0 18 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.9218 0L10.1248 8.66682H18L3.37494 26L8.29705 14.0832H0L13.9218 0Z" fill="#FF9900"/>
+                                    </svg>
 
                                     <img src="{{asset('img/graph.png')}}" alt="">
                                 </div>
