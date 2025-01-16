@@ -69,7 +69,7 @@
 
                     <div class="col-xl-4 col-lg-12 col-sm-4 d-flex mb-2">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                        <label class="form-check-label" for="flexCheckDefault3">
+                        <label class="form-check-label ms-2" for="flexCheckDefault3">
                             COMPARISON
                         </label>
                     </div>
