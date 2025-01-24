@@ -7,6 +7,10 @@
 
 .navbar-brand {
     margin-left: 164px !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    color: #5C5C5C !important;
 }
 
 .notification {

@@ -261,6 +261,7 @@
 
 .card-header a {
     font-size: 10px;
+    color: #33C5D9 !important;
 }
 
 .user-avatar {
@@ -332,7 +333,7 @@
 }
 
 .card-body {
-    background-color: #f5f9ff;
+    background-color: #F2F7F0;
     border-radius: 10px;
 }
 
@@ -395,11 +396,10 @@ a.text-primary:hover {
     }
 
     .comment-text {
-        width: 100%;
+        width: 94%;
     }
 
     .card-header strong {
-        font-size: 13px;
         font-weight: 700;
         line-height: 20px;
         margin-left: 5px;
@@ -414,6 +414,20 @@ a.text-primary:hover {
 
     .card-header a {
         font-size: 12px;
+    }
+
+    .comments-container {
+        width: 450px;
+    }
+
+    .video-campaigns-container {
+        width: 450px;
+    }
+}
+
+@media(min-width: 1400px) and (max-width: 1499px) {
+    .video-campaigns-container {
+        width: 410px;
     }
 }
 

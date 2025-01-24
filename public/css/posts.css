@@ -5,7 +5,7 @@
 }
 
 .posts-data-user div {
-    margin-left: 8px;
+    margin-left: 10%;
 }
 
 .posts-data-user div span:nth-child(1) {
@@ -67,6 +67,10 @@
 @media (min-width: 1400px) {
     .posts-content {
         padding: 0px 15px 0px 15px;
+    }
+
+    .posts-data-user div {
+        margin-left: 16%;
     }
 }
 

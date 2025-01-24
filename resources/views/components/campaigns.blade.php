@@ -152,7 +152,7 @@
                                         <span>12, 2024</span>
                                     </div>
 
-                                    <div class="d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center align-items-baseline">
                                         <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect x="0.478271" width="9.02899" height="7" fill="#CC142B"/>
                                         </svg>
@@ -930,7 +930,7 @@
                                         <span>12, 2024</span>
                                     </div>
 
-                                    <div class="d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center align-items-baseline">
                                         <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect x="0.478271" width="9.02899" height="7" fill="#CC142B"/>
                                         </svg>
@@ -1109,6 +1109,10 @@
                                 </div>
 
                                 <div class="col-lg-3 d-flex justify-content-around align-items-end icons-additional-info">
+                                    <svg style="visibility: hidden;" width="18" height="26" viewBox="0 0 18 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.9218 0L10.1248 8.66682H18L3.37494 26L8.29705 14.0832H0L13.9218 0Z" fill="#FF9900"/>
+                                    </svg>
+
                                     <img src="{{asset('img/graph.png')}}" alt="">
                                 </div>
                             </div>
@@ -1192,7 +1196,7 @@
                                         <span>12, 2024</span>
                                     </div>
 
-                                    <div class="d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center align-items-baseline">
                                         <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect x="0.478271" width="9.02899" height="7" fill="#CC142B"/>
                                         </svg>
