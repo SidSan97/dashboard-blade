@@ -79,9 +79,30 @@ body {
     display: none !important;
 }
 
+.mandatory-field {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 30px;
+    color: #CC142B;
+    margin-left: 5px;
+}
+
+.smp-subtitle {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 30px;
+    color: #3A3A3A;
+}
+
 @media(min-width: 1400px) {
     .card-dashboard {
         padding: 15px;
+    }
+
+    .smp-subtitle {
+        margin-left: 25px;
     }
 }
 

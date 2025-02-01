@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('css/total-videos.css')}}">
     <link rel="stylesheet" href="{{asset('css/top-social-users.css')}}">
     <link rel="stylesheet" href="{{asset('css/posts.css')}}">
+    <link rel="stylesheet" href="{{asset('css/social-media-plataform.css')}}">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

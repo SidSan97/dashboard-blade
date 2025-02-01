@@ -1,0 +1,19 @@
+* body {
+    margin: 0;
+    padding: 0;
+}
+
+.smp-social-icons-div {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.smp-social-media-logos {
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.smp-social-media-logos img{
+    width: 33px;
+}
