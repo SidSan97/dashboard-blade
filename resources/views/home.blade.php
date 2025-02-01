@@ -51,6 +51,8 @@
                                 <div class="row mb-2">
                                     <div class="col-lg-6 mb-2">
                                         @include('components/social-media-plataform')
+
+                                        @include('components/campaign-about')
                                     </div>
                                 </div>
                             </div>

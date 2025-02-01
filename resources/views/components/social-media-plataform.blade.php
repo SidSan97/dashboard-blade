@@ -1,8 +1,8 @@
-<div class="card-dashboard mt-2 p-0 mb-4">
+<div class="card-dashboard mt-2 p-0 mb-2">
     <div class="social-media-plataform">
-        <div class="container pt-3">
+        <div class="container-fluid p-0">
             <div class="row mb-2">
-                <div class="col-12 d-flex flex-sm-row flex-column mb-2">
+                <div class="col-12 d-flex flex-sm-row flex-column">
                     <div class="logo">#</div>
                     <span class="card-title">SOCIAL MEDIA PLATAFORM</span> <span class="mandatory-field">*</span>
                     <span class="smp-subtitle">Choose one or more platforms</span>
