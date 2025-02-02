@@ -1,5 +1,5 @@
 <div class="card-dashboard mt-2 p-0 mb-2">
-    <div class="social-media-plataform">
+    <div class="campaign-about">
         <div class="container-fluid p-0">
             <div class="row mb-2">
                 <div class="col-12 d-flex flex-sm-row flex-column mb-2">
@@ -9,7 +9,34 @@
             </div>
 
             <div class="row">
-                
+                <div class="about-form">
+                    <div class="mb-2">
+                        <label for="exampleFormControlInput1" class="form-label">Campaign Title</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                    </div>
+
+                    <div class="mb-2">
+                        <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-5 mb-2">
+                            <label for="exampleFormControlInput2" class="form-label">Target Audience</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput2">
+                        </div>
+
+                        <div class="col-lg-4 mb-3">
+                            <label for="exampleFormControlInput2" class="form-label">Category</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Category</option>
+                                <option value="1">Gambling</option>
+                                <option value="2">E-commerce</option>
+                                <option value="3">Brande</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -53,6 +53,8 @@
                                         @include('components/social-media-plataform')
 
                                         @include('components/campaign-about')
+
+                                        @include('components/campaigns-date')
                                     </div>
                                 </div>
                             </div>
