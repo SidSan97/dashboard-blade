@@ -30,6 +30,7 @@
                                         @include('components/campaigns')
 
                                         @include('components/published-videos')
+
                                         <br><br>
                                     </div>
 
@@ -55,6 +56,8 @@
                                         @include('components/campaign-about')
 
                                         @include('components/campaigns-date')
+
+                                        @include('components/campaigns-topics')
                                     </div>
                                 </div>
                             </div>

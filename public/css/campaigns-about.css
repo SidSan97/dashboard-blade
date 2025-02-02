@@ -1,0 +1,44 @@
+.campaign-about {
+    padding: 10px 10px 4px 10px;
+}
+
+.about-form label {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #7B7B7B;
+    margin-bottom: 0px !important;
+}
+
+.about-form input, .about-form textarea, .about-form select, .campaigns-date input, .campaigns-date select {
+    border: 1px solid #0000001A;
+    background-color: #FFFFFF;
+}
+
+.about-form input, .campaigns-date input {
+    border-radius: 7px;
+    height: 31px;
+    font-size: 14px;
+}
+
+.about-form select, .campaigns-date select {
+    height: 29px;
+    font-size: 11px;
+    border-radius: 8px;
+}
+
+.campaigns-date {
+    padding: 10px 10px 4px 10px;
+}
+
+.campaigns-date span {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #7B7B7B;
+}
+
+.campaigns-date svg {
+    margin: 0 10px 0 10px;
+}
+
