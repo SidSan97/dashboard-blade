@@ -60,6 +60,12 @@
                                         @include('components/campaigns-topics')
                                     </div>
                                 </div>
+
+                                <div class="row mb-2">
+                                    <div class="col-12">
+                                        @include('components/campaigns-create-video')
+                                    </div>
+                                </div>
                             </div>
                         </main>
                     @endif

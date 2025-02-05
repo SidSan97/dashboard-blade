@@ -23,12 +23,12 @@
                         <div class="topics-form2 p-4">
                             <form action="" method="">
                                 @csrf
-                                <div class="row">
+                                <div class="row mb-4">
                                     <div class="col-md-8 mb-2">
-                                    <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="floatingInput" placeholder="Type topic">
-                                    <label for="floatingInput">Topic:</label>
-                                    </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="Type topic">
+                                            <label for="floatingInput">Topic:</label>
+                                        </div>
                                     </div>
 
                                     <div class="col-md-4 mb-2 d-flex align-items-center">
@@ -63,8 +63,15 @@
                                     </div>
                                 </div>
 
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label post-only" for="flexCheckDefault">
+                                        Post now Only
+                                    </label>
+                                </div>
+
                                 <div class="d-flex justify-content-end">
-                                    <button type="submit">Save</button>
+                                    <button type="submit" class="save-topic-btn p-0">Save</button>
                                 </div>
                             </form>
                         </div>
