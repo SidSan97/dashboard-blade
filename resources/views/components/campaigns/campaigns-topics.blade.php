@@ -23,7 +23,7 @@
                         <div class="topics-form2 p-4">
                             <form action="" method="">
                                 @csrf
-                                <div class="row mb-4">
+                                <div class="row mb-2">
                                     <div class="col-md-8 mb-2">
                                         <div class="form-floating mb-3">
                                             <input type="text" class="form-control" id="floatingInput" placeholder="Type topic">

@@ -51,19 +51,23 @@
                             <div class="container-fluid p-0">
                                 <div class="row mb-2">
                                     <div class="col-lg-6 mb-2">
-                                        @include('components/social-media-plataform')
+                                        @include('components/campaigns/social-media-plataform')
 
-                                        @include('components/campaign-about')
+                                        @include('components/campaigns/campaign-about')
 
-                                        @include('components/campaigns-date')
+                                        @include('components/campaigns/campaigns-date')
 
-                                        @include('components/campaigns-topics')
+                                        @include('components/campaigns/campaigns-topics')
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        @include('components/campaigns/social-users')
                                     </div>
                                 </div>
 
                                 <div class="row mb-2">
                                     <div class="col-12">
-                                        @include('components/campaigns-create-video')
+                                        @include('components/campaigns/campaigns-create-video')
                                     </div>
                                 </div>
                             </div>
