@@ -1,3 +1,91 @@
 .campaign-create-video {
     padding: 10px 10px 4px 10px;
 }
+
+.cv-template, .cv-subtitles, .cv-first-frame, .cv-others-container {
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #DADADA80;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+}
+
+.cv-template span {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #7b7b7b;
+}
+
+.campaign-create-video sup {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 30px;
+    top: -2px !important;
+    color: #CC142B;
+}
+
+.cv-template select, .cv-subtitles select {
+    border-radius: 7px;
+    border: 1px solid #0000001A;
+    height: 32px;
+    font-size: 13px;
+}
+
+.campaign-create-video label, .cffs {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #7B7B7B;
+}
+
+.check-cv input {
+    margin-top: 6px !important;
+}
+
+.cv-subtitles span {
+    color: #CC142B;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.first-frame-radios label {
+    font-size: 11.76px !important;
+    font-weight: 500 !important;
+    line-height: 17.64px !important;
+    letter-spacing: 0.4200301766395569px !important;
+}
+
+.ccv-btn {
+    border-radius: 7px;
+    width: 145px;
+    height: 32px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.pv-btn {
+    border: 1px solid #45BDDC80;
+    background-color: #45BDDC;
+}
+
+.dc-btn {
+    background-color: #BBBBBB;
+    border: 1px solid #BBBBBB;
+}
+
+.ac-btn {
+    background-color: #60BF41;
+    border: 1px solid #60BF41;
+}
+
+.cv-others-container select {
+    width: 156px;
+    border-radius: 7px;
+    height: 32px;
+    font-size: 13px;
+    border: 1px solid #0000001A
+}

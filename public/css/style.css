@@ -96,6 +96,16 @@ body {
     color: #3A3A3A;
 }
 
+.form-check-input[type="checkbox"]:checked {
+    background-color: #838383 !important;
+    border-color: #DADADA80 !important;
+}
+
+.form-check-input:checked {
+    background-color: #3CC1DD !important;
+    border-color: #3CC1DD !important;
+}
+
 @media(min-width: 1400px) {
     .card-dashboard {
         padding: 15px;

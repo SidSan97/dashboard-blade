@@ -26,11 +26,6 @@
     font-size: 8px;
 }
 
-.form-check-input:checked {
-    background-color: #838383 !important;
-    border-color: #DADADA80 !important;
-}
-
 .tvi-checks-filters div:nth-child(1) i {
     color: #d63384;
 }
