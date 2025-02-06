@@ -40,7 +40,7 @@
                                     </div>
                                 </div>
 
-                                <div class="row mb-2">
+                                <div class="row mb-4">
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Leave a story here" id="floatingTextarea"></textarea>
