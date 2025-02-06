@@ -57,9 +57,9 @@
                                     </div>
 
                                     <div class="col-md-2">
-                                        <button class="circle-button ms-2">
+                                        <span class="circle-button ms-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                             <i class="bi bi-plus"></i>
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
 

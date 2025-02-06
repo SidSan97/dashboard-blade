@@ -77,6 +77,7 @@
             </div>
         </div>
 
+        @include('components/modal/video-resources')
         @include('components/footer')
     </body>
 </html>
