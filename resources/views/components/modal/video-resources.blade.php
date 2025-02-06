@@ -5,8 +5,8 @@
                 <div class="row">
                     <div class="col-12 d-flex flex-sm-row flex-column">
                         <div class="logo">#</div>
-                        <span class="card-title">TOPICS</span> 
-                        
+                        <span class="card-title">TOPICS</span>
+
                         <h5>VIDEO RESOURCES</h5>
                     </div>
                 </div>
@@ -61,9 +61,9 @@
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item tsu-accordion-content">
                                 <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button tsu-button-title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <button class="accordion-button collapsed tsu-button-title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                         <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="accordionCheck1"> 
+                                            <input class="form-check-input" type="checkbox" value="" id="accordionCheck1">
                                             Stake - Pragmatic Play Peak Power
                                         </div>
                                         <span>7</span>
@@ -72,7 +72,101 @@
 
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-1">
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44" checked>
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - wanted dead or a wild
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44" checked>
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - wanted dead or a wild
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +175,7 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button tsu-button-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="accordionCheck1"> 
+                                            <input class="form-check-input" type="checkbox" value="" id="accordionCheck1">
                                             Stake - Relax Gaming - Dinopolis
                                         </div>
                                         <span>10</span>
@@ -90,16 +184,110 @@
 
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-1">
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44" checked>
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - wanted dead or a wild
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44" checked>
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - wanted dead or a wild
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="accordion-item tsu-accordion-content">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button tsu-button-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="accordionCheck1"> 
+                                            <input class="form-check-input" type="checkbox" value="" id="accordionCheck1">
                                             UFC - Ultimate Fighter Championship
                                         </div>
                                         <span>17</span>
@@ -108,18 +296,121 @@
 
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-1">
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44" checked>
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - wanted dead or a wild
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44" checked>
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - Play N Go  Chambers of Ancients
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="video-resource-open-content d-flex justify-content-between">
+                                                    <div class="form-check d-flex">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault44">
+                                                        <label class="form-check-label" for="flexCheckDefault44">
+                                                            Stake - wanted dead or a wild
+                                                        </label>
+                                                    </div>
+
+                                                    <div>
+                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="upload-video-option p-3 d-flex mt-3">
+                    <span class="me-3">Upload New Video</span>
+
+                    <div class="d-flex">
+                        <button>Choose File</button>
+                        <button>No file chosen</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+            <div class="modal-footer tsu-modal-footer">
+                <button type="button">Save</button>
+                <button type="button" data-bs-dismiss="modal">Cancel</button>
             </div>
         </div>
     </div>

@@ -13,6 +13,10 @@
     color: #5C5C5C !important;
 }
 
+.navbar-brand span {
+    font-weight: 400;
+}
+
 .notification {
     position: relative;
     display: inline-block;
