@@ -89,3 +89,12 @@
     font-size: 13px;
     border: 1px solid #0000001A
 }
+
+.tvs-modal-header {
+    padding: 10px 0px 0px 17px !important;
+}
+
+.modal-header .btn-close {
+    margin: 0 6px 6px 0 !important;
+    padding: .5rem .5rem;
+}

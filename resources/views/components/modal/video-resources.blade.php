@@ -1,7 +1,7 @@
 <div class="modal fade tvs-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-lg">
         <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header tvs-modal-header">
                 <div class="row">
                     <div class="col-12 d-flex flex-sm-row flex-column">
                         <div class="logo">#</div>

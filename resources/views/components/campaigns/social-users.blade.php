@@ -89,7 +89,7 @@
 
                     <div class="col-lg-6 mb-2">
                         <!-- Inicio conteudo dos cards -->
-                        <div class="csu-list-content d-flex mb-2 p-2">
+                        <div class="csu-list-content d-flex mb-2">
                             <div class="csu-chebox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="csu-checkbox">
@@ -133,7 +133,7 @@
                             </div>
                         </div>
 
-                        <div class="csu-list-content d-flex mb-2 p-2">
+                        <div class="csu-list-content d-flex mb-2">
                             <div class="csu-chebox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="csu-checkbox">
@@ -177,7 +177,7 @@
                             </div>
                         </div>
 
-                        <div class="csu-list-content d-flex mb-2 p-2">
+                        <div class="csu-list-content d-flex mb-2">
                             <div class="csu-chebox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="csu-checkbox">
@@ -221,7 +221,7 @@
                             </div>
                         </div>
 
-                        <div class="csu-list-content d-flex mb-2 p-2">
+                        <div class="csu-list-content d-flex mb-2">
                             <div class="csu-chebox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="csu-checkbox">
@@ -268,7 +268,7 @@
 
                     <div class="col-lg-6 mb-2">
                         <!-- Inicio conteudo dos cards -->
-                        <div class="csu-list-content d-flex mb-2 p-2">
+                        <div class="csu-list-content d-flex mb-2">
                             <div class="csu-chebox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="csu-checkbox">
@@ -312,7 +312,7 @@
                             </div>
                         </div>
 
-                        <div class="csu-list-content d-flex mb-2 p-2">
+                        <div class="csu-list-content d-flex mb-2">
                             <div class="csu-chebox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="csu-checkbox">
@@ -356,7 +356,7 @@
                             </div>
                         </div>
 
-                        <div class="csu-list-content d-flex mb-2 p-2">
+                        <div class="csu-list-content d-flex mb-2">
                             <div class="csu-chebox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="csu-checkbox">
@@ -400,7 +400,7 @@
                             </div>
                         </div>
 
-                        <div class="csu-list-content d-flex mb-2 p-2">
+                        <div class="csu-list-content d-flex mb-2">
                             <div class="csu-chebox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="csu-checkbox">
@@ -444,7 +444,7 @@
                             </div>
                         </div>
 
-                        <div class="csu-list-content d-flex mb-2 p-2">
+                        <div class="csu-list-content d-flex mb-2">
                             <div class="csu-chebox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="csu-checkbox">
