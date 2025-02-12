@@ -8,9 +8,16 @@ body {
 
 .main-content, .main-create-campaigns-view {
     width: auto !important;
-    padding-top: 15px;
     margin-top: 70px;
     margin-left: 160px;
+}
+
+.main-content {
+    padding-top: 15px;
+}
+
+.main-create-campaigns-view {
+    padding-top: 7px;
 }
 
 .three-button-menu {
