@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="{{asset('css/campaigns-topics.css')}}">
     <link rel="stylesheet" href="{{asset('css/campaigns-create-video.css')}}">
     <link rel="stylesheet" href="{{asset('css/campaigns-social-users.css')}}">
+    <link rel="stylesheet" href="{{asset('css/campaigns-hashtag.css')}}">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

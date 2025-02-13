@@ -1,4 +1,4 @@
-<div class="card-dashboard mt-2 p-0 mb-2">
+<div class="card-dashboard mt-2 p-0 mb-4">
     <div class="campaigns-social-users">
         <div class="container p-0">
             <div class="row mb-2">

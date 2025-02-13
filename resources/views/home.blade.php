@@ -62,6 +62,8 @@
 
                                     <div class="col-lg-6">
                                         @include('components/campaigns/social-users')
+
+                                        @include('components/campaigns/campaign-hashtag')
                                     </div>
                                 </div>
 

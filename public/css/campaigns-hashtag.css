@@ -1,0 +1,10 @@
+.campaign-hashtag {
+    padding: 15px 10px 4px 15px;
+}
+
+.campaign-hashtag label {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #7B7B7B;
+}
