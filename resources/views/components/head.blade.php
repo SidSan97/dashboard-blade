@@ -16,13 +16,14 @@
     <link rel="stylesheet" href="{{asset('css/top-social-users.css')}}">
     <link rel="stylesheet" href="{{asset('css/posts.css')}}">
 
-
-    <link rel="stylesheet" href="{{asset('css/social-media-plataform.css')}}">
-    <link rel="stylesheet" href="{{asset('css/campaigns-about.css')}}">
-    <link rel="stylesheet" href="{{asset('css/campaigns-topics.css')}}">
-    <link rel="stylesheet" href="{{asset('css/campaigns-create-video.css')}}">
-    <link rel="stylesheet" href="{{asset('css/campaigns-social-users.css')}}">
-    <link rel="stylesheet" href="{{asset('css/campaigns-hashtag.css')}}">
+    @if (Route::is('campaigns') or Route::is('edit-campaign'))
+      <link rel="stylesheet" href="{{asset('css/campaigns/social-media-plataform.css')}}">
+      <link rel="stylesheet" href="{{asset('css/campaigns/campaigns-about.css')}}">
+      <link rel="stylesheet" href="{{asset('css/campaigns/campaigns-topics.css')}}">
+      <link rel="stylesheet" href="{{asset('css/campaigns/campaigns-create-video.css')}}">
+      <link rel="stylesheet" href="{{asset('css/campaigns/campaigns-social-users.css')}}">
+      <link rel="stylesheet" href="{{asset('css/campaigns/campaigns-hashtag.css')}}">
+    @endif
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

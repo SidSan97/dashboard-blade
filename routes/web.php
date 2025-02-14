@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/campaigns', function () {
     return view('home');
 })->name('campaigns');
+
+Route::get('/edit-campaign', function () {
+    return view('home');
+})->name('edit-campaign');

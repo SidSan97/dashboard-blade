@@ -75,6 +75,36 @@
                             </div>
                         </main>
                     @endif
+
+                    @if (Route::is('edit-campaign'))
+                        <main class="main-create-campaigns-view">
+                            <div class="container-fluid p-0">
+                                <div class="row mb-2">
+                                    <div class="col-lg-6 mb-2">
+                                        @include('components/campaigns/edit-social-media-plataform')
+
+                                        @include('components/campaigns/edit-campaign-about')
+
+                                        @include('components/campaigns/edit-campaigns-date')
+
+                                        @include('components/campaigns/edit-campaigns-topics')
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        @include('components/campaigns/edit-social-users')
+
+                                        @include('components/campaigns/edit-campaign-hashtag')
+                                    </div>
+                                </div>
+
+                                <div class="row mb-2">
+                                    <div class="col-12">
+                                        @include('components/campaigns/edit-campaigns-create-video')
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                    @endif
                 </div>
             </div>
         </div>

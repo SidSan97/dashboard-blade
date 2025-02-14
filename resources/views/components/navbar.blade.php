@@ -5,6 +5,8 @@
                 DASHBOARD
             @elseif (Route::is('campaigns'))
                <span>CAMPAIGN</span> > CREATE NEW CAMPAIGN
+            @elseif (Route::is('edit-campaign'))
+                <span>CAMPAIGN</span> > EDIT CAMPAIGN
             @endif
         </a>
 

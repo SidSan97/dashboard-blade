@@ -18,7 +18,17 @@
 .about-form input, .campaigns-date input {
     border-radius: 7px;
     height: 31px;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3A3A3A;
+}
+
+.about-form textarea {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3A3A3A;
 }
 
 .about-form select, .campaigns-date select {
