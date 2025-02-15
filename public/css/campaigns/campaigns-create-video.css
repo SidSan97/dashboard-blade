@@ -32,6 +32,15 @@
     font-size: 13px;
 }
 
+.cv-subtitles select {
+    width: 190px;
+    margin-left: 10px;
+}
+
+#cv-select-font {
+    display: none;
+}
+
 .campaign-create-video label, .cffs {
     font-size: 13px;
     font-weight: 700;

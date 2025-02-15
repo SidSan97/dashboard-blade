@@ -26,21 +26,42 @@
                                 </select>
                             </div>
 
-                            <div class="form-check check-cv">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                                <label class="form-check-label" for="flexCheckDefault2">
+                            <div class="form-check check-cv me-2">
+                                <input class="form-check-input" type="checkbox" value="" id="showBonusAfterScene">
+                                <label class="form-check-label" for="showBonusAfterScene">
                                     Show Bonus After scene
                                 </label>
+                            </div>
+
+                            <div class="select-scene" id="select-scene">
+                                <input type="button" value="0">
+                                <input type="button" value="1">
+                                <input type="button" value="2">
+                                <input type="button" value="3">
                             </div>
                         </div>
                     </div>
 
                     <div class="cv-subtitles mb-2">
-                        <div class="form-check check-cv">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                            <label class="form-check-label" for="flexCheckDefault3">
-                                Subtitles
-                            </label>
+                        <div class="d-flex w-100 justify-content-between flex-sm-row flex-column">
+                            <div class="form-check check-cv">
+                                <input class="form-check-input" type="checkbox" value="" id="cv-check-font">
+                                <label class="form-check-label" for="cv-check-font">
+                                    Subtitles
+                                </label>
+                            </div>
+
+                            <div id="cv-select-font">
+                                <div class="d-flex">
+                                    <label for="">Subtitles Font</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select Subtitles Font</option>
+                                        <option value="1">Portugues</option>
+                                        <option value="2">English</option>
+                                        <option value="3">Spanish</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
 
                         <span class="ms-3">*Subtitles not available in Japanese and Arabic languages</span>

@@ -17,3 +17,23 @@ function openVideoCampaingsList(value) {
         campaignsContainer.style.display = "none";
     }
 }
+
+document.getElementById("showBonusAfterScene").addEventListener("change", function() {
+    let selectScene = document.getElementById('select-scene');
+    
+    if (this.checked) {
+        selectScene.style.display = "block";
+    } else {
+        selectScene.style.display = "none";
+    }
+});
+
+document.getElementById("cv-check-font").addEventListener("change", function() {
+    let cvSelectFont = document.getElementById('cv-select-font');
+    
+    if (this.checked) {
+        cvSelectFont.style.display = "block";
+    } else {
+        cvSelectFont.style.display = "none";
+    }
+});
