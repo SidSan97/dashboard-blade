@@ -113,7 +113,7 @@ body {
     border-color: #3CC1DD !important;
 }
 
-.select-scene input[type="button"] {
+.select-scene input[type="button"], .select-scene2 input[type="button"] {
     outline: none;
     border: 1px solid #45BDDC;
     border-radius: 10px;
@@ -129,8 +129,15 @@ body {
     color: #7B7B7B;
 }
 
-#select-scene {
+#select-scene, #select-scene2 {
     display: none;
+}
+
+#select-scene2 span{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #7B7B7B;
 }
 
 @media(min-width: 1400px) {

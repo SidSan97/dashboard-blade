@@ -107,3 +107,31 @@
     margin: 0 6px 6px 0 !important;
     padding: .5rem .5rem;
 }
+
+.frame-color-selected {
+    background-color: #f4f4f4;
+    border: 1px solid #DADADA80;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.colors-selected {
+    width: 164px;
+    height: 37px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #0000001A;
+}
+
+.colors-selected span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #3a3a3a;
+}
+
+.colors-selected i {
+    width: 20px;
+}

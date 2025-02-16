@@ -20,7 +20,7 @@ function openVideoCampaingsList(value) {
 
 document.getElementById("showBonusAfterScene").addEventListener("change", function() {
     let selectScene = document.getElementById('select-scene');
-    
+
     if (this.checked) {
         selectScene.style.display = "block";
     } else {
@@ -30,10 +30,20 @@ document.getElementById("showBonusAfterScene").addEventListener("change", functi
 
 document.getElementById("cv-check-font").addEventListener("change", function() {
     let cvSelectFont = document.getElementById('cv-select-font');
-    
+
     if (this.checked) {
         cvSelectFont.style.display = "block";
     } else {
         cvSelectFont.style.display = "none";
+    }
+});
+
+document.getElementById("showBonusAfterScene2").addEventListener("change", function() {
+    let selectScene2 = document.getElementById('select-scene2');
+
+    if (this.checked) {
+        selectScene2.style.display = "block";
+    } else {
+        selectScene2.style.display = "none";
     }
 });
