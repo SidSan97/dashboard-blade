@@ -47,3 +47,12 @@ document.getElementById("showBonusAfterScene2").addEventListener("change", funct
         selectScene2.style.display = "none";
     }
 });
+
+const colorPicker = document.getElementById('colorPicker');
+const colorPreview = document.getElementById('colorPreview');
+
+colorPicker.addEventListener('input', () => {
+
+    const selectedColor = colorPicker.value;
+    colorPreview.textContent = selectedColor;
+});
