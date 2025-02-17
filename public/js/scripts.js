@@ -56,3 +56,13 @@ colorPicker.addEventListener('input', () => {
     const selectedColor = colorPicker.value;
     colorPreview.textContent = selectedColor;
 });
+
+document.getElementById("showFrameColor").addEventListener("change", function() {
+    let showFrameColor = document.getElementById('show-frame-color');
+
+    if (this.checked) {
+        showFrameColor.style.display = "block";
+    } else {
+        showFrameColor.style.display = "none";
+    }
+});

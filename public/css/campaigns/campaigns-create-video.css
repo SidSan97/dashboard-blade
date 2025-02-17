@@ -160,3 +160,18 @@
     height: 55px;
     width: 345px;
 }
+
+.colors-selected svg {
+    cursor: pointer;
+}
+
+#colorPicker {
+    width: 185px;
+    height: 20px;
+    border: 1px solid #DADADA;
+    border-radius: 30px;
+}
+
+#show-frame-color {
+    display: none;
+}
