@@ -175,3 +175,26 @@
 #show-frame-color {
     display: none;
 }
+
+.promotion-code {
+    border: 1px solid #DADADA80;
+    background-color: #f4f4f4;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.promotion-code-content {
+    background-color: #FFFFFF;
+    height: 55px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    width: 97%;
+    padding: 15px 5px 15px 10px;
+}
+
+.promotion-code-content div {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #3a3a3a;
+}
