@@ -66,3 +66,16 @@ document.getElementById("showFrameColor").addEventListener("change", function() 
         showFrameColor.style.display = "none";
     }
 });
+
+document.getElementById("showPromoCode").addEventListener("change", function() {
+    let div = document.getElementById('show-promo-code');
+    let subTitle = document.getElementById('chck-cv-subtitle');
+
+    if (this.checked) {
+        div.style.display = "block";
+        subTitle.style.display = "block";
+    } else {
+        div.style.display = "none";
+        subTitle.style.display = "none";
+    }
+});
