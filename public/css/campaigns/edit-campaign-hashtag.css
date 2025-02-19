@@ -22,5 +22,54 @@
 }
 
 .hc-text span {
-    word-break: break-word;
+    word-break: break-all;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #3a3a3a;
+}
+
+.div-show-hashtags, .add-hashtag-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.div-show-hashtags::-webkit-scrollbar-thumb, .add-hashtag-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #45BDDC;
+}
+
+.div-show-hashtags::-webkit-scrollbar, .add-hashtag-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.div-show-hashtags {
+    height: 330px;
+}
+
+.add-hashtag-list {
+    width: 350px;
+    height: 160px;
+}
+
+.add-hashtags {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.add-hashtags input {
+    border: 1px solid #0000001A;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #3a3a3a;
+}
+
+#show-hashtags {
+    display: none;
 }

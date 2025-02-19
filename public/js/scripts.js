@@ -79,3 +79,13 @@ document.getElementById("showPromoCode").addEventListener("change", function() {
         subTitle.style.display = "none";
     }
 });
+
+document.getElementById("showHashtags").addEventListener("change", function() {
+    let div = document.getElementById('show-hashtags');
+
+    if (this.checked) {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+});
