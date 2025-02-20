@@ -347,28 +347,400 @@
                 <div class="col-lg-6 mb-2">
                     <div class="cv-others-container mb-2">
                         <div class="form-check check-cv">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
-                            <label class="form-check-label" for="flexCheckDefault5">
+                            <input class="form-check-input" type="checkbox" value="" id="showTransitionsScenes">
+                            <label class="form-check-label" for="showTransitionsScenes">
                                 Transitions between Scenes
                             </label>
                         </div>
-                    </div>
 
-                    <div class="cv-others-container mb-2">
-                        <div class="form-check check-cv">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
-                            <label class="form-check-label" for="flexCheckDefault5">
-                                Brand Logo Img
-                            </label>
+                        <div id="show-transitions-scenes" class="mt-3">
+                            <div class="scenes-selected mb-3 d-flex">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 7L0 14V0L7 7ZM7 7L14 14V0L7 7Z" fill="#7B7B7B"/>
+                                </svg>
+
+                                <div class="scenes-name d-flex">
+                                    <strong>Slide Left</strong>
+                                    <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0002 0.636353C5.37663 0.636353 0.818359 5.19463 0.818359 10.8182C0.818359 16.4417 5.37663 21 11.0002 21C16.6237 21 21.182 16.4417 21.182 10.8182C21.182 5.19463 16.6237 0.636353 11.0002 0.636353ZM7.81836 6.30381L11.0002 9.48563L14.182 6.30381L15.5145 7.63635L12.3327 10.8182L15.5145 14L14.182 15.3325L11.0002 12.1507L7.81836 15.3325L6.48581 14L9.66763 10.8182L6.48581 7.63635L7.81836 6.30381Z" fill="#EF4A4F"></path>
+                                    </svg>
+                                </div>
+
+                                <div class="scenes-name d-flex">
+                                    <strong>Pixelize</strong>
+                                    <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0002 0.636353C5.37663 0.636353 0.818359 5.19463 0.818359 10.8182C0.818359 16.4417 5.37663 21 11.0002 21C16.6237 21 21.182 16.4417 21.182 10.8182C21.182 5.19463 16.6237 0.636353 11.0002 0.636353ZM7.81836 6.30381L11.0002 9.48563L14.182 6.30381L15.5145 7.63635L12.3327 10.8182L15.5145 14L14.182 15.3325L11.0002 12.1507L7.81836 15.3325L6.48581 14L9.66763 10.8182L6.48581 7.63635L7.81836 6.30381Z" fill="#EF4A4F"></path>
+                                    </svg>
+                                </div>
+
+                                <div class="scenes-name d-flex">
+                                    <strong>Slide Up</strong>
+                                    <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0002 0.636353C5.37663 0.636353 0.818359 5.19463 0.818359 10.8182C0.818359 16.4417 5.37663 21 11.0002 21C16.6237 21 21.182 16.4417 21.182 10.8182C21.182 5.19463 16.6237 0.636353 11.0002 0.636353ZM7.81836 6.30381L11.0002 9.48563L14.182 6.30381L15.5145 7.63635L12.3327 10.8182L15.5145 14L14.182 15.3325L11.0002 12.1507L7.81836 15.3325L6.48581 14L9.66763 10.8182L6.48581 7.63635L7.81836 6.30381Z" fill="#EF4A4F"></path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mb-3 justify-content-between st-subtitle">
+                                <label for="">Transiton List</label>
+                                <span>Click in the Play button to preview</span>
+                            </div>
+
+                            <div class="transitions-list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="row w-100 pt-3">
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc1" checked>
+                                                    <label class="form-check-label" for="tlc1">
+                                                        Slide Left
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc2">
+                                                    <label class="form-check-label" for="tlc2">
+                                                        Cicle Crop
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc3">
+                                                    <label class="form-check-label" for="tlc3">
+                                                        Radial
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc4" checked>
+                                                    <label class="form-check-label" for="tlc4">
+                                                        Pixelize
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc5" checked>
+                                                    <label class="form-check-label" for="tlc5">
+                                                        Slide Up
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc6">
+                                                    <label class="form-check-label" for="tlc6">
+                                                        Horizontal Blur
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc7">
+                                                    <label class="form-check-label" for="tlc7">
+                                                        Horizontal Slice
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc8">
+                                                    <label class="form-check-label" for="tlc8">
+                                                        Wipe Left
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                     <div class="cv-others-container mb-2">
                         <div class="form-check check-cv">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14">
-                            <label class="form-check-label" for="flexCheckDefault14">
+                            <input class="form-check-input" type="checkbox" value="" id="showBrandLogo">
+                            <label class="form-check-label" for="showBrandLogo">
+                                Brand Logo Img
+                            </label>
+                        </div>
+
+                        <div id="show-brand-logo" class="mt-3">
+                            <div class="select-logo d-flex mb-2">
+                                <select class="form-select me-3" aria-label="Default select example">
+                                    <option selected="">Brand logo</option>
+                                    <option value="1">Active</option>
+                                    <option value="2">Draft</option>
+                                </select>
+
+                                <div class="logos">
+                                    <div class="logos-selected d-flex">
+                                        <img src="{{asset('img/stake_logo_final_1.png')}}" alt="" srcset="">
+
+                                        <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.0002 0.636353C5.37663 0.636353 0.818359 5.19463 0.818359 10.8182C0.818359 16.4417 5.37663 21 11.0002 21C16.6237 21 21.182 16.4417 21.182 10.8182C21.182 5.19463 16.6237 0.636353 11.0002 0.636353ZM7.81836 6.30381L11.0002 9.48563L14.182 6.30381L15.5145 7.63635L12.3327 10.8182L15.5145 14L14.182 15.3325L11.0002 12.1507L7.81836 15.3325L6.48581 14L9.66763 10.8182L6.48581 7.63635L7.81836 6.30381Z" fill="#EF4A4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="choose-file d-flex">
+                                <label for="" class="me-3">Upload New Logo</label>
+
+                                <div class="d-flex logos-upload">
+                                    <button>Choose File</button>
+                                    <button>No file chosen</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cv-others-container mb-2">
+                        <div class="form-check check-cv">
+                            <input class="form-check-input" type="checkbox" value="" id="showBackgroundMusic">
+                            <label class="form-check-label" for="showBackgroundMusic">
                                 Background Music
                             </label>
+                        </div>
+
+                        <div id="show-background-music" class="mt-3">
+                            <div class="scenes-selected mb-3 d-flex">
+                                <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.44618 10.1423C3.11095 10.1423 3.71362 10.4055 4.15466 10.8326V4.33843V2.06932V1.90934C4.15466 1.35747 4.60458 0.85991 5.15502 0.804136L12.9982 0.00520307C13.5496 -0.0510598 14 0.355501 14 0.908345V2.16912V3.33548V10.884V10.8938C13.9946 12.2309 12.9011 13.3131 11.5533 13.3131C10.2016 13.3131 9.10665 12.2255 9.10665 10.884C9.10665 9.5425 10.2021 8.45491 11.5533 8.45491C12.2181 8.45491 12.8208 8.71813 13.2618 9.14523V3.41082L4.89335 4.26308V12.5709V12.5807C4.88793 13.9178 3.79444 15 2.44667 15C1.09546 15 0 13.9124 0 12.5709C0 11.2294 1.09546 10.1418 2.44667 10.1418L2.44618 10.1423Z" fill="#7B7B7B"/>
+                                </svg>
+
+                                <div class="scenes-name d-flex">
+                                    <strong>Sports Crescendo Tunes</strong>
+                                    <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0002 0.636353C5.37663 0.636353 0.818359 5.19463 0.818359 10.8182C0.818359 16.4417 5.37663 21 11.0002 21C16.6237 21 21.182 16.4417 21.182 10.8182C21.182 5.19463 16.6237 0.636353 11.0002 0.636353ZM7.81836 6.30381L11.0002 9.48563L14.182 6.30381L15.5145 7.63635L12.3327 10.8182L15.5145 14L14.182 15.3325L11.0002 12.1507L7.81836 15.3325L6.48581 14L9.66763 10.8182L6.48581 7.63635L7.81836 6.30381Z" fill="#EF4A4F"></path>
+                                    </svg>
+                                </div>
+
+                                <div class="scenes-name d-flex">
+                                    <strong>Exciting Tunes</strong>
+                                    <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0002 0.636353C5.37663 0.636353 0.818359 5.19463 0.818359 10.8182C0.818359 16.4417 5.37663 21 11.0002 21C16.6237 21 21.182 16.4417 21.182 10.8182C21.182 5.19463 16.6237 0.636353 11.0002 0.636353ZM7.81836 6.30381L11.0002 9.48563L14.182 6.30381L15.5145 7.63635L12.3327 10.8182L15.5145 14L14.182 15.3325L11.0002 12.1507L7.81836 15.3325L6.48581 14L9.66763 10.8182L6.48581 7.63635L7.81836 6.30381Z" fill="#EF4A4F"></path>
+                                    </svg>
+                                </div>
+
+                                <div class="scenes-name d-flex">
+                                    <strong>Relaxing Tunes</strong>
+                                    <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0002 0.636353C5.37663 0.636353 0.818359 5.19463 0.818359 10.8182C0.818359 16.4417 5.37663 21 11.0002 21C16.6237 21 21.182 16.4417 21.182 10.8182C21.182 5.19463 16.6237 0.636353 11.0002 0.636353ZM7.81836 6.30381L11.0002 9.48563L14.182 6.30381L15.5145 7.63635L12.3327 10.8182L15.5145 14L14.182 15.3325L11.0002 12.1507L7.81836 15.3325L6.48581 14L9.66763 10.8182L6.48581 7.63635L7.81836 6.30381Z" fill="#EF4A4F"></path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between st-subtitle">
+                                <label for="">Music List</label>
+                                <span>Click in the Play button to preview</span>
+                            </div>
+
+                            <div class="row mb-2">
+                                <div class="col-lg-8 mb-2">
+                                    <div class="">
+                                        <div class="search-box">
+                                            <i class="bi bi-search"></i>
+                                            <input type="text" placeholder="Search by name">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <select class="form-select w-100" aria-label="Default select example">
+                                        <option selected="">All Music Style</option>
+                                        <option value="1">Instagram</option>
+                                        <option value="2">TikTok</option>
+                                        <option value="3">Youtube</option>
+                                        <option value="4">X (Twitter)</option>
+                                        <option value="5">Bluesky</option>
+                                        <option value="6">Facebook</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="transitions-list">
+                                <div class="d-flex justify-content-between">
+                                    <div class="row w-100 pt-3">
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc1" checked="">
+                                                    <label class="form-check-label" for="tlc1">
+                                                        Sports Crescendo Tunes
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc2">
+                                                    <label class="form-check-label" for="tlc2">
+                                                        Working Upbeat Tunes
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc3">
+                                                    <label class="form-check-label" for="tlc3">
+                                                        Tech Gaming
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc4" checked="">
+                                                    <label class="form-check-label" for="tlc4">
+                                                        Exciting Tunes
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc5" checked="">
+                                                    <label class="form-check-label" for="tlc5">
+                                                        Relaxing Tunes
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc6">
+                                                    <label class="form-check-label" for="tlc6">
+                                                        Cheerfull Tunes
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc7">
+                                                    <label class="form-check-label" for="tlc7">
+                                                        UFC Boxing Tunes
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 mb-2">
+                                            <div class="transitions-list-content d-flex justify-content-between align-items-center mb-2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="tlc8">
+                                                    <label class="form-check-label" for="tlc8">
+                                                        Soft Rock Tunes
+                                                    </label>
+                                                </div>
+
+                                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 0C6.24615 0 0 6.24615 0 14C0 21.7538 6.24615 28 14 28C21.7538 28 28 21.7538 28 14C28 6.24615 21.7538 0 14 0ZM20.4 15.0154L11.0769 20.4615C10.8923 20.5846 10.6769 20.6154 10.4923 20.6154C10.3077 20.6154 10.0923 20.5846 9.90769 20.4615C9.56923 20.2769 9.32308 19.8769 9.32308 19.4462V8.55385C9.32308 8.12308 9.56923 7.72308 9.90769 7.53846C10.2462 7.35385 10.7385 7.35385 11.0769 7.53846L20.4308 12.9846C20.7692 13.1692 20.9846 13.5692 20.9846 14C20.9846 14.4308 20.7385 14.8308 20.4 15.0154Z" fill="#3CC1DD"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -421,8 +793,10 @@
             <div class="row mb-2">
                 <div class="col-12">
                     <div class="cv-others-container mb-2 d-flex justify-content-end">
-                            <button class="ccv-btn dc-btn">Draft Campaign</button>
-                            <button class="ccv-btn ac-btn ms-3">Activate Campaign</button>
+                        <button class="ccv-btn dwc-btn">Delete Whole Campaign</button>
+                        <button class="ccv-btn dc-btn ms-3">Draft Campaign</button>
+                        <button class="ccv-btn hc-btn ms-3">Hold Campaign</button>
+                        <button class="ccv-btn sc-btn ms-3">Save Campaign</button>
                     </div>
                 </div>
             </div>

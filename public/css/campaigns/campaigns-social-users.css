@@ -42,7 +42,7 @@
 
 .show-name-users {
     flex-wrap: wrap;
-    padding: 8px 3px 5px 3px;
+    padding: 8px 3px 7px 10px;
     display: flex;
     background-color: #ffffff;
     border: 1px solid #DADADA80;
@@ -51,7 +51,7 @@
 }
 
 .snu-user-icon {
-    margin: 6px 6px 0px 9px;
+    margin: 6px 6px 0px 0px;
 }
 
 .user-name-su {

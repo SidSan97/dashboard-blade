@@ -91,6 +91,22 @@
     border: 1px solid #60BF41;
 }
 
+.dwc-btn {
+    background-color: #EF4A4F;
+    border: 1px solid #EF4A4F;
+    width: 200px !important;
+}
+
+.hc-btn {
+    border: 1px solid #CCBC02;
+    background-color: #CCBC02;
+}
+
+.sc-btn {
+    border: 1px solid #60BF41;
+    background-color: #60BF41;
+}
+
 .cv-others-container select {
     width: 156px;
     border-radius: 7px;
@@ -172,7 +188,7 @@
     border-radius: 30px;
 }
 
-#show-frame-color, #show-promo-code {
+#show-frame-color, #show-promo-code, #show-brand-logo, #show-background-music {
     display: none;
 }
 
@@ -240,6 +256,38 @@
 .choose-file button:nth-child(2) {
     background-color: #FFFFFF;
     width: 50%;
+    height: 30px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #0000001A;
+    border-left: none;
+    color: #3A3A3A;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.logos-upload button:nth-child(1) {
+    background-color: #45BDDC;
+    width: 96px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #0000001A;
+    border-right: none;
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.logos-upload button:nth-child(2) {
+    background-color: #FFFFFF;
+    width: 106px;
     height: 30px;
     border-radius: 0 5px 5px 0;
     border: 1px solid #0000001A;

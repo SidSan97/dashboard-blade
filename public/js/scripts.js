@@ -89,3 +89,33 @@ document.getElementById("showHashtags").addEventListener("change", function() {
         div.style.display = "none";
     }
 });
+
+document.getElementById("showTransitionsScenes").addEventListener("change", function() {
+    let div = document.getElementById('show-transitions-scenes');
+
+    if (this.checked) {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+});
+
+document.getElementById("showBrandLogo").addEventListener("change", function() {
+    let div = document.getElementById('show-brand-logo');
+
+    if (this.checked) {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+});
+
+document.getElementById("showBackgroundMusic").addEventListener("change", function() {
+    let div = document.getElementById('show-background-music');
+
+    if (this.checked) {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+});

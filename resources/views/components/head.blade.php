@@ -24,6 +24,7 @@
       <link rel="stylesheet" href="{{asset('css/campaigns/campaigns-social-users.css')}}">
       <link rel="stylesheet" href="{{asset('css/campaigns/campaigns-hashtag.css')}}">
       <link rel="stylesheet" href="{{asset('css/campaigns/edit-campaign-hashtag.css')}}">
+      <link rel="stylesheet" href="{{asset('css/campaigns/campaigns-transictions-selected.css')}}">
     @endif
 
     <!-- Fonts -->
