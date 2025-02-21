@@ -1,0 +1,74 @@
+.scenes-selected {
+    flex-wrap: wrap;
+    padding: 8px 7px 5px 7px;
+    display: flex;
+    background-color: #f4f4f4;
+    border: 1px solid #DADADA80;
+    border-radius: 7px;
+    height: auto;
+}
+
+.scenes-selected svg {
+    margin: 5px 6px 0 3px;
+}
+
+.scenes-name {
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    border: 1px solid #0000001A;
+    border-radius: 50px;
+    padding: 2px 3px 2px 3px;
+    margin-bottom: 5px;
+    margin-right: 7px;
+}
+
+.scenes-name svg {
+    margin: 1px 0px 0px 4px !important;
+}
+
+.st-subtitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #7b7b7b;
+}
+
+.transitions-list-content {
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 55px;
+    width: 100%;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    padding: 0 10px 0 10px;
+}
+
+.transitions-list-content label {
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-left: 10px;
+    color: #3A3A3A !important;
+}
+
+.transitions-list {
+    overflow-y: scroll;
+    height: 275px;
+    overflow-x: hidden;
+}
+
+.transitions-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #45BDDC;
+}
+
+.transitions-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+#show-transitions-scenes {
+    display: none;
+}

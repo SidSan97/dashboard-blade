@@ -25,6 +25,10 @@
     color: #CC142B;
 }
 
+.talking-avatar-check {
+    margin-right: 100px;
+}
+
 .cv-template select, .cv-subtitles select {
     border-radius: 7px;
     border: 1px solid #0000001A;
@@ -296,4 +300,10 @@
     font-size: 13px;
     line-height: 30px;
     font-weight: 600;
+}
+
+@media(max-width: 580px) {
+    .talking-avatar-check {
+        margin-right: 0px;
+    }
 }

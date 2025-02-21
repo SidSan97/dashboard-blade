@@ -104,10 +104,10 @@
                 </div>
             </div>
 
+            <span class="csu-title">List</span>
+
             <div class="list-csu">
                 <div class="row csu-div-list">
-                    <span class="csu-title">List</span>
-
                     <div class="col-lg-6 mb-2">
                         <!-- Inicio conteudo dos cards -->
                         <div class="csu-list-content d-flex mb-2">

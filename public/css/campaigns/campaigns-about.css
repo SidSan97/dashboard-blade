@@ -37,6 +37,13 @@
     border-radius: 8px;
 }
 
+.campaigns-date select {
+    border-radius: 7px;
+    border: 1px solid #0000001A;
+    height: 32px;
+    font-size: 13px;
+}
+
 .campaigns-date {
     padding: 10px 10px 4px 10px;
 }

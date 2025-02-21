@@ -52,7 +52,7 @@
                                 <span class="cffs">First Frame (Poster)</span> <sup>*</sup>
                             </div>
 
-                            <div class="form-check check-cv">
+                            <div class="form-check check-cv talking-avatar-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
                                 <label class="form-check-label" for="flexCheckDefault4">
                                     Talking Avatar on Asset

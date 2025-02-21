@@ -74,6 +74,10 @@
     padding: 15px;
 }
 
+.csu-user-data div {
+    margin-left: -20px;
+}
+
 .csu-user-data img {
     border-radius: 50%;
     width: 45px;
@@ -122,6 +126,7 @@
     height: 435px;
     overflow-x: hidden;
     padding-right: 5px;
+    padding: 0px 7px 0 7px;
 }
 
 .list-csu::-webkit-scrollbar-thumb {
