@@ -9,7 +9,7 @@
 }
 
 .scenes-selected svg {
-    margin: 5px 6px 0 3px;
+    margin: 9px 6px 0 3px;
 }
 
 .scenes-name {
@@ -58,6 +58,7 @@
     overflow-y: scroll;
     height: 275px;
     overflow-x: hidden;
+    padding-left: 7px;
 }
 
 .transitions-list::-webkit-scrollbar-thumb {
