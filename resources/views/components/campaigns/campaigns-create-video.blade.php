@@ -50,24 +50,17 @@
                         <div>
                             <span class="cffs">First Frame (Poster)</span> <sup>*</sup>
                         </div>
-
-                        <div class="form-check check-cv talking-avatar-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
-                            <label class="form-check-label" for="flexCheckDefault4">
-                                Talking Avatar on Asset
-                            </label>
-                        </div>
                     </div>
 
-                    <div class="first-frame-radios">
-                        <div class="form-check">
+                    <div class="first-frame-radios d-flex justify-content-between">
+                        <div class="form-check ms-2">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
                             <label class="form-check-label" for="flexRadioDefault1">
                                 Avatar on first frame
                             </label>
                         </div>
 
-                        <div class="form-check">
+                        <div class="form-check me-5">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                             <label class="form-check-label" for="flexRadioDefault2">
                                 Random Frame on first frame
