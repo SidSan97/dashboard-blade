@@ -71,6 +71,30 @@
                         <div>
                             <span class="cffs">First Frame (Poster)</span> <sup>*</sup>
                         </div>
+                    </div>
+
+                    <div class="first-frame-radios d-flex justify-content-between">
+                        <div class="form-check ms-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Avatar on first frame
+                            </label>
+                        </div>
+
+                        <div class="form-check me-5">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Random Frame on first frame
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div class="cv-first-frame mb-2">
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>
+                            <span class="cffs">First Frame (Poster)</span> <sup>*</sup>
+                        </div>
 
                         <div class="form-check check-cv talking-avatar-check">
                             <input class="form-check-input" type="checkbox" value="" id="showBonusAfterScene2">
@@ -122,6 +146,51 @@
                                         <input type="button" value="3">
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div-->
+
+                <div class="cv-others-container mb-2 talking-avatar">
+                    <div class="form-check check-cv mb-2">
+                        <input class="form-check-input" type="checkbox" value="" id="showTalkingAvatar">
+                        <label class="form-check-label" for="flexCheckDefault5">
+                            Talking Avatar On Asset
+                        </label>
+                    </div>
+
+                    <div class="row mb-2">
+                        <div class="col-lg-6 mb-2">
+                            <div class="form-check ms-2">
+                                <input class="form-check-input" type="radio" name="currentAvatar" id="talkingAvatar">
+                                <label class="form-check-label type-avatar-options" for="talkingAvatar">
+                                    Current Avatar
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-check ms-2">
+                                <input class="form-check-input" type="radio" name="expressAvatar" id="talkingAvatar" checked>
+                                <label class="form-check-label type-avatar-options" for="talkingAvatar">
+                                    Express Avatar
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="select-avatars-list mb-2">
+                        <div class="select-avatars">
+                            <div class="avatars-content mb-2">
+                                <div class="avatars-picture d-flex justify-content-center align-items-center">
+                                    <img src="{{asset('img/avatar1.png')}}" alt="" srcset="">
+
+                                    <div>
+                                        @include('components/svg_flags/brasil')
+                                    </div>
+                                </div>
+
+                                <span align="center">Anh</span>
                             </div>
                         </div>
                     </div>
