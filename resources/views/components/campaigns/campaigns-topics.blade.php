@@ -57,9 +57,10 @@
                                     </div>
 
                                     <div class="col-md-2">
-                                        <span class="circle-button ms-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                            <i class="bi bi-plus"></i>
-                                        </span>
+                                        <svg data-bs-toggle="modal" data-bs-target="#staticBackdrop" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="13.5" cy="13.5" r="13.5" fill="#3CC1DD"></circle>
+                                            <path d="M19.6322 15.33H14.7182V20.374H11.2862V15.33H6.37223V12.158H11.2862V7.114H14.7182V12.158H19.6322V15.33Z" fill="white"></path>
+                                        </svg>
                                     </div>
                                 </div>
 

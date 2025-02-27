@@ -398,6 +398,30 @@
                     </div>
                 </div>
 
+                <div class="upload-video-option p-3 mt-3">
+                    <div class="d-flex">
+                        <span class="me-3">Upload Slideshow Images</span>
+
+                        <div class="d-flex mb-3">
+                            <button>Choose File</button>
+                            <button>No file chosen</button>
+                        </div>
+                    </div>
+
+                    <div class="img-uploads">
+                        <div class="img-upload-choose">
+                            <img src="{{asset('img/imgUpload1.png')}}" alt="">
+
+                            <div>
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse cx="10.6541" cy="10.4" rx="5.95" ry="5.95" fill="white"/>
+                                    <path d="M10.8528 9.46635L13.2038 7.11536L13.6294 7.54091L11.2784 9.8919L10.9248 10.2455L11.2784 10.599L13.6294 12.95L13.2038 13.3756L10.8528 11.0246L10.4993 10.671L10.1457 11.0246L7.79473 13.3756L7.36917 12.95L9.72016 10.599L10.0737 10.2455L9.72016 9.8919L7.36917 7.54091L7.79473 7.11536L10.1457 9.46635L10.4993 9.8199L10.8528 9.46635ZM10.4993 1.09091C5.44312 1.09091 1.34473 5.1893 1.34473 10.2455C1.34473 15.3016 5.44312 19.4 10.4993 19.4C15.5554 19.4 19.6538 15.3016 19.6538 10.2455C19.6538 5.1893 15.5554 1.09091 10.4993 1.09091Z" fill="#EF4A4F" stroke="white"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="upload-video-option p-3 d-flex mt-3">
                     <span class="me-3">Upload New Video</span>
 
