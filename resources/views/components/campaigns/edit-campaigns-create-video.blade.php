@@ -159,38 +159,148 @@
                         </label>
                     </div>
 
-                    <div class="row mb-2">
-                        <div class="col-lg-6 mb-2">
-                            <div class="form-check ms-2">
-                                <input class="form-check-input" type="radio" name="currentAvatar" id="talkingAvatar">
-                                <label class="form-check-label type-avatar-options" for="talkingAvatar">
-                                    Current Avatar
-                                </label>
+                    <div id="showTalkingAvatarAsset">
+                        <div class="row mb-2">
+                            <div class="col-lg-6 mb-2">
+                                <div class="form-check ms-2">
+                                    <input class="form-check-input" type="radio" name="currentAvatar" id="talkingAvatar">
+                                    <label class="form-check-label type-avatar-options" for="talkingAvatar">
+                                        Current Avatar
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-check ms-2">
+                                    <input class="form-check-input" type="radio" name="expressAvatar" id="talkingAvatar" checked>
+                                    <label class="form-check-label type-avatar-options" for="talkingAvatar">
+                                        Express Avatar
+                                    </label>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <div class="form-check ms-2">
-                                <input class="form-check-input" type="radio" name="expressAvatar" id="talkingAvatar" checked>
-                                <label class="form-check-label type-avatar-options" for="talkingAvatar">
-                                    Express Avatar
-                                </label>
-                            </div>
-                        </div>
-                    </div>
+                        <div class="select-avatars-list mb-2">
+                            <div class="select-avatars">
+                                <div class="avatars-content">
+                                    <div class="avatars-picture d-flex justify-content-center align-items-center">
+                                        <img src="{{asset('img/avatar1.png')}}" alt="" srcset="">
 
-                    <div class="select-avatars-list mb-2">
-                        <div class="select-avatars">
-                            <div class="avatars-content mb-2">
-                                <div class="avatars-picture d-flex justify-content-center align-items-center">
-                                    <img src="{{asset('img/avatar1.png')}}" alt="" srcset="">
+                                        <div>
+                                            @include('components/svg_flags/brasil')
+                                        </div>
+                                    </div>
 
-                                    <div>
-                                        @include('components/svg_flags/brasil')
+                                    <div class="d-flex justify-content-center">
+                                        <span class="avatar-name">Anh</span>
                                     </div>
                                 </div>
 
-                                <span align="center">Anh</span>
+                                <div class="avatars-content">
+                                    <div class="avatars-picture d-flex justify-content-center align-items-center">
+                                        <img src="{{asset('img/avatar2.png')}}" alt="" srcset="">
+
+                                        <div>
+                                            @include('components/svg_flags/united_states')
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <span class="avatar-name">Elisa</span>
+                                    </div>
+                                </div>
+
+                                <div class="avatars-content">
+                                    <div class="avatars-picture d-flex justify-content-center align-items-center">
+                                        <img src="{{asset('img/avatar3.png')}}" alt="" srcset="">
+
+                                        <div>
+                                            @include('components/svg_flags/united_kingdom')
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <span class="avatar-name">Dennis</span>
+                                    </div>
+                                </div>
+
+                                <div class="avatars-content">
+                                    <div class="avatars-picture d-flex justify-content-center align-items-center">
+                                        <img src="{{asset('img/avatar4.png')}}" alt="" srcset="">
+
+                                        <div>
+                                            @include('components/svg_flags/brasil')
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <span class="avatar-name">Silva</span>
+                                    </div>
+                                </div>
+
+                                <div class="avatars-content">
+                                    <div class="avatars-picture d-flex justify-content-center align-items-center">
+                                        <img src="{{asset('img/avatar5.png')}}" alt="" srcset="">
+
+                                        <div>
+                                            @include('components/svg_flags/espanha')
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <span class="avatar-name">Miguel</span>
+                                    </div>
+                                </div>
+
+                                <div class="avatars-content">
+                                    <div class="avatars-picture d-flex justify-content-center align-items-center">
+                                        <img src="{{asset('img/avatar1.png')}}" alt="" srcset="">
+
+                                        <div>
+                                            @include('components/svg_flags/nova_zelandia')
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <span class="avatar-name">Billy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-subtitles mb-2">
+                    <div class="form-check check-cv">
+                        <label class="form-check-label" for="flexCheckDefault3">
+                            Avatar Position
+                        </label>
+                    </div>
+
+                    <div id="select-scene22">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Rounded Avatar on Top
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Full screen Avatar
+                            </label>
+                        </div>
+
+                        <div class="mt-2">
+                            <div class="d-flex">
+                                <span class="me-1">Select Scene</span>
+                                <div class="select-scene2">
+                                    <input type="button" value="0">
+                                    <input type="button" value="1">
+                                    <input type="button" value="2">
+                                    <input type="button" value="3">
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -38,8 +38,8 @@ document.getElementById("cv-check-font").addEventListener("change", function() {
     }
 });
 
-document.getElementById("showBonusAfterScene2").addEventListener("change", function() {
-    let selectScene2 = document.getElementById('select-scene2');
+document.getElementById("showTalkingAvatar").addEventListener("change", function() {
+    let selectScene2 = document.getElementById('showTalkingAvatarAsset');
 
     if (this.checked) {
         selectScene2.style.display = "block";
