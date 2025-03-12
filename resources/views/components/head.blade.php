@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('css/total-videos.css')}}">
     <link rel="stylesheet" href="{{asset('css/top-social-users.css')}}">
     <link rel="stylesheet" href="{{asset('css/posts.css')}}">
+    <link rel="stylesheet" href="{{asset('css/task-queue.css')}}">
 
     @if (Route::is('campaigns') or Route::is('edit-campaign'))
       <link rel="stylesheet" href="{{asset('css/campaigns/social-media-plataform.css')}}">

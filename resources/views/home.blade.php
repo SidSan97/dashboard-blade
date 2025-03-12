@@ -105,6 +105,18 @@
                             </div>
                         </main>
                     @endif
+
+                    @if (Route::is('task-queue'))
+                        <main class="task-queue">
+                            <div class="container-fluid p-0">
+                                <div class="row mb-2">
+                                    <div class="col-12 mb-2">
+                                        @include('components/task-queue')
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                    @endif
                 </div>
             </div>
         </div>
